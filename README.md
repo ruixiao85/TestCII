@@ -1,4 +1,6 @@
 # TestCII
+http://biopython.org/DIST/docs/tutorial/Tutorial.html
+
 
 You need to write a small program using a programming language of your choice that will take:
 
@@ -9,6 +11,7 @@ https://drive.google.com/file/d/0BzTpYi_vYHmldXZfbGRYNHkzaVE/edit?usp=sharing
 b) Adaptor and primer sequences are:
 
 Primer Sequence:CGCCGTTTCCCAGTAGGTCTC
+
 Adaptor Sequence:ACTGAGTGGGAGGCAAGGCACACAGGGGATAGG
 
 The program should generate the following output:
