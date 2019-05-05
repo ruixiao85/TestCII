@@ -78,8 +78,8 @@ if __name__=='__main__':
       scores=rec.letter_annotations["phred_quality"]  # print(scores)
       cor_qual=mean(scores)>qc3 # whether has the correct average quality score
       if cor_qual: c3+=1  # increment if average quality score met predefined criteria
-      has_primer,rec=find_print_trim(rec,primer,"primer",fpa)  # return whether has primer and trimmed sequence
-      has_adaptor,rec=find_print_trim(rec,adaptor,"adaptor",fpa)  # return whether has adaptor and trimmed sequence
+      has_primer,rec=find_print_trim(rec,primer,"primer",fpa)  # return whether has primer and trimmed record
+      has_adaptor,rec=find_print_trim(rec,adaptor,"adaptor",fpa)  # return whether has adaptor and trimmed record
       if has_primer: c4+=1 # increment if has primer
       if has_adaptor: c5+=1 # increment if has adaptor
       if has_primer and has_adaptor: c6+=1  # increment if has both
