@@ -83,7 +83,7 @@ I chose the former solution for this task because it's quicker to set up and the
 without having to download and maintain the database as I do not run these tasks on a daily basis yet.
 
 Retrieval of ncbi blast result in default xml format was done with the following code:
->     qblast=NCBIWWW.qblast("blastn","nt",rec.seq) # perform ncbi qblast  
+>     qblast=NCBIWWW.qblast("blastn","nt",rec.seq) # perform ncbi qblast, assuming after trimming
 >     with open(blast_file,"w") as file:  # write blast result to local computer  
 >        file.write(qblast.read())
 
@@ -112,7 +112,8 @@ The code for final console output is as follows:
 >     print()
 >     print('In addition, your program needs to generate the following files:')
 >     print(f'1. Total number of reads blasted and written into the m8 format file":\n'
->           f'   [{blast_result_file}] completed {cb} / {c1} ({cb/c1:.1%}) via NCBI qblast.')
+>           f'   [{blast_result_file}] assuming running blast with sequences after trimming primer/adaptor'
+>           f'   completed {cb} / {c1} ({cb/c1:.1%}) via NCBI qblast.')
 >     print(f'2. Fasta file containing reads greater than {qc2} {unit}, average read quality scores greater than {qc3},\n'
 >           f'   primers and adaptors trimmed.\n'
 >           f'   [{filter_trim_file}] (assuming and/&& condition, and trim all instances of exact match).')

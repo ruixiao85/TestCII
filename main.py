@@ -29,9 +29,9 @@ if __name__=='__main__':
    parser=argparse.ArgumentParser()
    parser.add_argument('-f','--filename',dest='filename',action='store',default='test',
                        help='file name without extension, ~.fna, ~.qual, ~.fastq')
-   parser.add_argument('-l','--length',dest='length',action='store',default=100,
+   parser.add_argument('-l','--length',dest='length',action='store',default=100,type=int,
                        help='keep reads with length greater than this value')
-   parser.add_argument('-q','--quality',dest='quality',action='store',default=20,
+   parser.add_argument('-q','--quality',dest='quality',action='store',default=20,type=int,
                        help='keep reads with average quality score greater than this value')
    parser.add_argument('-u','--unit',dest='unit',action='store',default='bp',help='unit, default: bp')
    parser.add_argument('-p','--primer',dest='primer',action='store',default='CGCCGTTTCCCAGTAGGTCTC')
@@ -88,7 +88,7 @@ if __name__=='__main__':
          SeqIO.write(rec,fft,"fasta") # write trimmed sequence to fasta file
       blast_file=os.path.join(blast_folder,f'{basefile}_{rec.name}.xml') # path to local blast file (xml format)
       if not os.path.exists(blast_file) and web_access: # if not found and use internet
-         qblast=NCBIWWW.qblast("blastn","nt",rec.seq) # perform ncbi qblast
+         qblast=NCBIWWW.qblast("blastn","nt",rec.seq) # perform ncbi qblast, assuming after trimming
          with open(blast_file,"w") as file:  # write blast result to local computer
             file.write(qblast.read())
          print(f'blast completed for {rec.name} @ {datetime.datetime.now()}.') # update console of the progress
@@ -120,7 +120,8 @@ if __name__=='__main__':
    print()
    print('In addition, your program needs to generate the following files:')
    print(f'1. Total number of reads blasted and written into the m8 format file":\n'
-         f'   [{blast_result_file}] completed {cb} / {c1} ({cb/c1:.1%}) via NCBI qblast.')
+         f'   [{blast_result_file}] assuming running blast with sequences after trimming primer/adaptor'
+         f'   completed {cb} / {c1} ({cb/c1:.1%}) via NCBI qblast.')
    print(f'2. Fasta file containing reads greater than {qc2} {unit}, average read quality scores greater than {qc3}, primers and adaptors trimmed.\n'
          f'   [{filter_trim_file}] (assuming and/&& condition, and trim all instances of exact match).')
    print(f'3. Tab de-limited text file containing the read identifiers along with the starting and end positions of the primer or adaptor sequences:\n'
