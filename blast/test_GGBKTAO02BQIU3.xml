@@ -1,0 +1,658 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_212019</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>269</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_212019</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>269</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1559463640|gb|CP034993.1|</Hit_id>
+  <Hit_def>Takifugu bimaculatus chromosome 6</Hit_def>
+  <Hit_accession>CP034993</Hit_accession>
+  <Hit_len>17762956</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.443</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>5.51214e-45</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>8410473</Hsp_hit-from>
+      <Hsp_hit-to>8410742</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>TCCAG-TAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT-GTGTGTGTGTGT-GTGTGTGTGTG---TGTGTGTGTG-TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCCAGGTAGGTCTCGTGGGTGGGTGTGTGTGGGTGAGTGTGTGTGGGTGTGTGTGGGTGGGTATCGGTGGGTGGGTGTGTGTGTGTGTGTGGGTGGGTGGGTGGGTGTGTGTGGGTGGGTGGTGGTGTGTGGCCGTGTTTGGGTGTGGGTGGGTGGGTGTGGCAGTGGTGGGGGTGGATGGGGTGGGTGTGGCCTTTGTGGGTGTTGAGGGTGGGGTGGTGTGTGTGGGTGGGTGTGTGTGGGTGTGTTTGGGTGAGTGTAGGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||  ||| ||||||||| ||| ||||||||| ||||||||| ||| || |  ||| ||| ||||||||||||||||| ||| ||| ||| ||||||||| ||| |||   |||||||   |||| || ||||| ||| ||| |||||   || ||| | |||  | | ||| |||||   | |||| ||| || | ||| |   ||||||||| ||| ||||||||| |||||| || ||| ||||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|733595966|emb|LN681867.1|</Hit_id>
+  <Hit_def>Cucumis melo genomic scaffold, anchoredscaffold00013</Hit_def>
+  <Hit_accession>LN681867</Hit_accession>
+  <Hit_len>4462061</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.129</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.58065e-26</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1163295</Hsp_hit-from>
+      <Hsp_hit-to>1163059</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TGTGTTTGTTTGTTCGTGTGCGTGTTTGCGTTTTTGTGTTCTTGTTTTTGTTTGTTTGCTTGTTTGTTTGTTTTTGCTTGTTTGTTTGTTCGTGTTTGTTCGTTTGTGTTTGTTTTTGTTTGTTTGTTTGTTCGTTTTTGTGCTTGTTTGTGCGTGTTTGTTTGTTCGTGTGTTCGTGTGCTTGTTCGTGTGCGTGTGTGCGCGTGCGTGTGTGCGCGTGCGTGTGTGCGCGTGCGT</Hsp_hseq>
+      <Hsp_midline>||||| ||| |||  ||||| |||| || || | |||||   ||| | ||| ||| ||  ||| ||| ||| | ||  ||| ||| |||  |||| |||  || ||||| ||| | ||| ||| ||| |||  || | ||||  ||| |||| |||| ||| |||  ||||||  |||||  |||  ||||| ||||||| | ||| ||||||| | ||| ||||||| | ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1539176588|emb|LR132053.1|</Hit_id>
+  <Hit_def>Anabas testudineus genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR132053</Hit_accession>
+  <Hit_len>34285027</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.899</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.2152e-21</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>9184863</Hsp_hit-from>
+      <Hsp_hit-to>9184786</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TCCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>TCCAGTAGGTCAAACCAGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGCGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||    | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|841342715|emb|LK086198.1|</Hit_id>
+  <Hit_def>Apteryx australis mantelli genome assembly AptMant0, scaffold scaffold21628</Hit_def>
+  <Hit_accession>LK086198</Hit_accession>
+  <Hit_len>1517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.6514</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.83952e-14</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>659</Hsp_hit-from>
+      <Hsp_hit-to>742</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>CCAGTAGGTCTCCCTAGTGAGGAGATATATGTGTGTGTCTGTGTGTATGTGTGTATGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||    ||| |    | | ||||||||| ||||||| ||||||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1387538792|ref|XM_025040141.1|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto tyrosine kinase non receptor 1 (TNK1), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_025040141</Hit_accession>
+  <Hit_len>3666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.72062e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTAGGTCTCGTGTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1387538791|ref|XM_015597481.2|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto tyrosine kinase non receptor 1 (TNK1), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_015597481</Hit_accession>
+  <Hit_len>3706</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.72062e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTAGGTCTCGTGTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1387538790|ref|XM_006922309.3|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto tyrosine kinase non receptor 1 (TNK1), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_006922309</Hit_accession>
+  <Hit_len>3731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.72062e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTAGGTCTCGTGTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1387538789|ref|XM_015597479.2|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto tyrosine kinase non receptor 1 (TNK1), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_015597479</Hit_accession>
+  <Hit_len>3753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.72062e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTAGGTCTCGTGTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1387538785|ref|XM_025040138.1|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto tyrosine kinase non receptor 1 (TNK1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025040138</Hit_accession>
+  <Hit_len>3819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.72062e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTAGGTCTCGTGTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1387538783|ref|XM_025040137.1|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto tyrosine kinase non receptor 1 (TNK1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_025040137</Hit_accession>
+  <Hit_len>3823</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.72062e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTAGGTCTCGTGTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1387538781|ref|XM_025040136.1|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto tyrosine kinase non receptor 1 (TNK1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_025040136</Hit_accession>
+  <Hit_len>3849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.72062e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTAGGTCTCGTGTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1559463638|gb|CP034991.1|</Hit_id>
+  <Hit_def>Takifugu bimaculatus chromosome 4</Hit_def>
+  <Hit_accession>CP034991</Hit_accession>
+  <Hit_len>19082936</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.5194</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.29862e-08</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1385551</Hsp_hit-from>
+      <Hsp_hit-to>1385610</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>CGTTCCAGTAG-GTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>CGTTCCAGTAGTGTGTC-CCAGTGTGTGTGTGTGTGTGTGTGCGTGTGTGCGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| || ||  | ||||||||||||||||||||| ||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1389922960|ref|XM_008310187.3|</Hit_id>
+  <Hit_def>PREDICTED: Cynoglossus semilaevis cortexin 2 (ctxn2), mRNA</Hit_def>
+  <Hit_accession>XM_008310187</Hit_accession>
+  <Hit_len>1385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.92733e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>988</Hsp_hit-from>
+      <Hsp_hit-to>915</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>GTTCCAGTAGG--TCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GTTCCAGTAGGCACCTCCTTTGACCGGGGGCGTCTGTGGATGTGTGTGTGTGTGTGTGTGTGTGTGTGTATGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||| | ||   | | | || ||||  ||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1591613413|emb|LR535831.1|</Hit_id>
+  <Hit_def>Denticeps clupeoides genome assembly, chromosome: 19</Hit_def>
+  <Hit_accession>LR535831</Hit_accession>
+  <Hit_len>19707071</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.34797e-05</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>13069856</Hsp_hit-from>
+      <Hsp_hit-to>13069895</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>CCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>CCAGTAGGTCT--GCTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|968095741|ref|XM_002057295.2|</Hit_id>
+  <Hit_def>Drosophila virilis uncharacterized protein, transcript variant A (Dvir\GJ16408), mRNA</Hit_def>
+  <Hit_accession>XM_002057295</Hit_accession>
+  <Hit_len>1440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00348469</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>GCCGTTCCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GCCGTTCCAGT---TCTGGT-TGTGGTTATGGGTGTGCGTGTGGGTGTGGATGAGGGTGTGACTGTGACTGTGGTTGTGGCTGTGGGTGTGCGTATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||| || ||||  | || ||||| ||||| |||||  || | |||||  ||||  ||||  ||||  |||| ||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|968095739|ref|XM_015169953.1|</Hit_id>
+  <Hit_def>Drosophila virilis uncharacterized protein, transcript variant B (Dvir\GJ16408), mRNA</Hit_def>
+  <Hit_accession>XM_015169953</Hit_accession>
+  <Hit_len>1398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00348469</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>GCCGTTCCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GCCGTTCCAGT---TCTGGT-TGTGGTTATGGGTGTGCGTGTGGGTGTGGATGAGGGTGTGACTGTGACTGTGGTTGTGGCTGTGGGTGTGCGTATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||| || ||||  | || ||||| ||||| |||||  || | |||||  ||||  ||||  ||||  |||| ||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|663673454|emb|HG975448.1|</Hit_id>
+  <Hit_def>Solanum pennellii chromosome ch09, complete genome</Hit_def>
+  <Hit_accession>HG975448</Hit_accession>
+  <Hit_len>84057508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00348469</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>26819156</Hsp_hit-from>
+      <Hsp_hit-to>26819128</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TAGGTCTCGTCTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>TAGGTCTCGTCTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1591613435|emb|LR535853.1|</Hit_id>
+  <Hit_def>Mastacembelus armatus genome assembly, chromosome: 21</Hit_def>
+  <Hit_accession>LR535853</Hit_accession>
+  <Hit_len>28732325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.0424522</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>21164473</Hsp_hit-from>
+      <Hsp_hit-to>21164529</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>TTCCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>TTCCAGTAGGTTTAAACTGAACTTTCGTGTGTGTGTGTTTGTGTGTGTGTGCGTGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |   |||    |  |||||||||||| |||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|37605813|emb|AL954241.1|</Hit_id>
+  <Hit_def>Pan troglodytes chromosome 22 clone RP43-181I17 map 22q22.2-q22.3, complete sequence</Hit_def>
+  <Hit_accession>AL954241</Hit_accession>
+  <Hit_len>212865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.517174</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>69247</Hsp_hit-from>
+      <Hsp_hit-to>69281</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>GTTCCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTTCCAGTAGGGCGCGTGTGTGTGTATGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| | ||| ||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|690498408|emb|LN045494.1|</Hit_id>
+  <Hit_def>Spirometra erinaceieuropaei genome assembly S_erinaceieuropaei ,scaffold SPER_scaffold0044337</Hit_def>
+  <Hit_accession>LN045494</Hit_accession>
+  <Hit_len>6317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>6.30047</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>5469</Hsp_hit-from>
+      <Hsp_hit-to>5419</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>GCCGTTCCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GCCGTTCCAGTCTCCCTTGTCTTCGTCTGTCTGTGTGTGTGCGTGTGTTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||    || ||||  || ||| |||||||||| |||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|24430237|emb|AL844547.9|</Hit_id>
+  <Hit_def>Mouse DNA sequence from clone RP23-216B20 on chromosome 2, complete sequence</Hit_def>
+  <Hit_accession>AL844547</Hit_accession>
+  <Hit_len>210589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>6.30047</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>82220</Hsp_hit-from>
+      <Hsp_hit-to>82264</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>TTCCAGTAGGTCT--CGTCTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>TTCCAGTAGGTGTGAGGTCTGTATGTCTGTGTGTCTGTGTGGGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |   |||||| ||| ||||||| |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|37605812|emb|AL954240.1|</Hit_id>
+  <Hit_def>Pan troglodytes chromosome 22 clone PTB-045O21 map 22q22.2-q22.3, complete sequence</Hit_def>
+  <Hit_accession>AL954240</Hit_accession>
+  <Hit_len>164591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>6.30047</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>41</Hsp_query-to>
+      <Hsp_hit-from>152519</Hsp_hit-from>
+      <Hsp_hit-to>152553</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>GTTCCAGTAGGTCTCGTCTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTTCCAGTAGG--GCGTGTGTGTGTGTATGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||| ||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51378549</Statistics_db-num>
+      <Statistics_db-len>204700810597</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

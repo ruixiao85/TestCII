@@ -1,0 +1,770 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_59085</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>350</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_59085</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>350</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|685043644|emb|LN592169.1|</Hit_id>
+  <Hit_def>Cyprinus carpio genome assembly common carp genome ,scaffold 000000335</Hit_def>
+  <Hit_accession>LN592169</Hit_accession>
+  <Hit_len>263534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.935</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>3.16214e-43</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>185026</Hsp_hit-from>
+      <Hsp_hit-to>184913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>TCCTCGTAGTCGTCGT-GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCGTCGTAGTCGTCGTCGTG-GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1537016581|emb|LR131967.1|</Hit_id>
+  <Hit_def>Parambassis ranga genome assembly, chromosome: 17</Hit_def>
+  <Hit_accession>LR131967</Hit_accession>
+  <Hit_len>22993012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.901</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>8.4852e-38</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>22808458</Hsp_hit-from>
+      <Hsp_hit-to>22808840</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>304</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>TTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT----GTGTGTGTGTGTGTGT---GTGTGT----GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT----GTGTGTGTGTGTGTGT----GTGTGTGTGTGTGT----GTGTGTGTGTGTGTGT----GTGTGTGTGTGTGTGT----GTGTGTGTGTGTGTGTGTGTGTGT----GTGTGTGTGTGTGTGT----GTGTGT-GTGTGTGTGTGTGTGTGTGTGTGTGT----GTGTGTGTGTGTGTGT----GTGTGTGTGTGTGT----GTGTGTGTGTGTGTGTGTGTGTGTGT----GTGTGTGTGTGTGTGT----GTGTGTGTGTGTGT----GTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTCCTCGTAGT--TCAAGTGTGTGTG-GTGTGT-TCTTTGTGTTTG-GTGTGTTCCGGTGTGTGTG-GTATGTAAGGTGTGTTCAGGTGTGTG-GTGTGTGTG-GTATGTGTG-GTGTGTTCAAGTGTGTGTG-GTGTGTTCAGGTGTGTG-GTGTGTTCAAGTGTGTGTG-GTGTGTTCAAGTGTGTTTG-GTGTGTTCAGGTGTGTG-GTGTGTGTG-GTGTGTTCAAGTGTGTGTG-GTGTGTTCAGGTGTGTAGTGTGCTTAGGTGTGTGTG-GTGTGTTCAGGTGTGTGTG-GTGTGTTCAGGTGCGTG-GTGTGTTCAGGTGTGTTTG-GTGTGTTTG-GTGTGTTCCGGTGTGTGTG-GTGTGTTCAGGTGTGTG-GTGTGTTCAGGTGTGTG-GTGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||  ||||||||| |||||| | | ||||| || ||||||    ||||||||| || |||   ||||||    ||||||| ||||||||| || |||||| ||||||    ||||||||| ||||||    ||||||| ||||||    ||||||||| ||||||    |||||| || ||||||    ||||||| ||||||||| ||||||    ||||||||| ||||||    |||||| |||||  |  ||||||||| ||||||    ||||||||| ||||||    ||| ||| ||||||    |||||| || |||||| || ||||||    ||||||||| ||||||    ||||||| ||||||    ||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|532874280|gb|KF452347.1|</Hit_id>
+  <Hit_def>Scylla paramamosain microsatellite Scpa103 sequence</Hit_def>
+  <Hit_accession>KF452347</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.817</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>3.16493e-24</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>TTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTCCTCGTAGT----GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|307065770|gb|GQ872967.1|</Hit_id>
+  <Hit_def>Cyperus rotundus clone Cyr_533 SSR marker genomic sequence</Hit_def>
+  <Hit_accession>GQ872967</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.9463</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>7.95417e-13</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>TCCTCGTAGTCGTCGTGT-GTGT-GTGT-GT-GT-GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>TCGTCGTAGTCGTCGTGTCGTGTCGTGTCGTAGTCGYGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||| |||| |||| || || | |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|685042153|emb|LN590678.1|</Hit_id>
+  <Hit_def>Cyprinus carpio genome assembly common carp genome, scaffold: LG28, chromosome: 28</Hit_def>
+  <Hit_accession>LN590678</Hit_accession>
+  <Hit_len>22269040</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.143</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.77628e-12</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>9511004</Hsp_hit-from>
+      <Hsp_hit-to>9510951</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>CTCGTAGTCGTGGTCGGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||  ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|685042691|emb|LN591216.1|</Hit_id>
+  <Hit_def>Cyprinus carpio genome assembly common carp genome ,scaffold 000028982</Hit_def>
+  <Hit_accession>LN591216</Hit_accession>
+  <Hit_len>392588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.5362</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>3.3822e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>56578</Hsp_hit-from>
+      <Hsp_hit-to>56517</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>CGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGTTCCTCGTAAGGAGCATCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||     | | ||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1039758149|ref|XM_006527322.2|</Hit_id>
+  <Hit_def>PREDICTED: Mus musculus membrane-associated ring finger (C3HC4) 5 (March5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_006527322</Hit_accession>
+  <Hit_len>2121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.000385909</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>1884</Hsp_hit-from>
+      <Hsp_hit-to>1925</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CTCGTAGTCGTCCTGTGTGTGTG-GTGTGAGGGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||| ||||| | |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|354797112|gb|JN961613.1|</Hit_id>
+  <Hit_def>Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele March5:tm1a(EUCOMM)Wtsi; transgenic</Hit_def>
+  <Hit_accession>JN961613</Hit_accession>
+  <Hit_len>36582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.000385909</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>26162</Hsp_hit-from>
+      <Hsp_hit-to>26203</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CTCGTAGTCGTCCTGTGTGTGTG-GTGTGAGGGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||| ||||| | |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|354793200|gb|JN957701.1|</Hit_id>
+  <Hit_def>Mus musculus targeted non-conditional, lacZ-tagged mutant allele March5:tm1e(EUCOMM)Wtsi; transgenic</Hit_def>
+  <Hit_accession>JN957701</Hit_accession>
+  <Hit_len>36566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.000385909</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>26146</Hsp_hit-from>
+      <Hsp_hit-to>26187</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CTCGTAGTCGTCCTGTGTGTGTG-GTGTGAGGGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||| ||||| | |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|256773296|ref|NM_027314.3|</Hit_id>
+  <Hit_def>Mus musculus membrane-associated ring finger (C3HC4) 5 (March5), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_027314</Hit_accession>
+  <Hit_len>4113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.000385909</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>1824</Hsp_hit-from>
+      <Hsp_hit-to>1865</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CTCGTAGTCGTCCTGTGTGTGTG-GTGTGAGGGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||| ||||| | |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|76683220|gb|AC161238.7|</Hit_id>
+  <Hit_def>Mus musculus chromosome 19, clone RP24-288C19, complete sequence</Hit_def>
+  <Hit_accession>AC161238</Hit_accession>
+  <Hit_len>193445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.000385909</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>123991</Hsp_hit-from>
+      <Hsp_hit-to>123950</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CTCGTAGTCGTCCTGTGTGTGTG-GTGTGAGGGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||| ||||| | |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1591613403|emb|LR535823.1|</Hit_id>
+  <Hit_def>Denticeps clupeoides genome assembly, chromosome: 11</Hit_def>
+  <Hit_accession>LR535823</Hit_accession>
+  <Hit_len>22541512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00470133</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>13969376</Hsp_hit-from>
+      <Hsp_hit-to>13969338</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>TCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCGTAGTCGTCGGGCGTTTATGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | || | |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1395249490|gb|CP026263.1|</Hit_id>
+  <Hit_def>Scophthalmus maximus chromosome 21</Hit_def>
+  <Hit_accession>CP026263</Hit_accession>
+  <Hit_len>15882970</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>4759740</Hsp_hit-from>
+      <Hsp_hit-to>4759692</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>TTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTCCTCGTAGT----GTGTGCGCCCGTGTGTGTGTGTGTGTGTCCGTGCGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||    ||||| |   ||||||||||||||||||  ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1196800753|ref|XR_002392071.1|</Hit_id>
+  <Hit_def>PREDICTED: Heterocephalus glaber REV3 like, DNA directed polymerase zeta catalytic subunit (Rev3l), transcript variant X4, misc_RNA</Hit_def>
+  <Hit_accession>XR_002392071</Hit_accession>
+  <Hit_len>9044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>616</Hsp_hit-from>
+      <Hsp_hit-to>654</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTC----TCGGCGCCTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||    ||| ||  ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1196800750|ref|XM_004874620.3|</Hit_id>
+  <Hit_def>PREDICTED: Heterocephalus glaber REV3 like, DNA directed polymerase zeta catalytic subunit (Rev3l), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_004874620</Hit_accession>
+  <Hit_len>10810</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>612</Hsp_hit-from>
+      <Hsp_hit-to>650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTC----TCGGCGCCTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||    ||| ||  ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1196800749|ref|XM_013069186.2|</Hit_id>
+  <Hit_def>PREDICTED: Heterocephalus glaber REV3 like, DNA directed polymerase zeta catalytic subunit (Rev3l), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_013069186</Hit_accession>
+  <Hit_len>10813</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>612</Hsp_hit-from>
+      <Hsp_hit-to>650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTC----TCGGCGCCTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||    ||| ||  ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|951578603|ref|XM_014631549.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_014631549</Hit_accession>
+  <Hit_len>3026</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1095</Hsp_hit-from>
+      <Hsp_hit-to>1149</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|951578600|ref|XM_014631548.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_014631548</Hit_accession>
+  <Hit_len>3356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1095</Hsp_hit-from>
+      <Hsp_hit-to>1149</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|951578597|ref|XM_014631547.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_014631547</Hit_accession>
+  <Hit_len>2498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1095</Hsp_hit-from>
+      <Hsp_hit-to>1149</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|951578595|ref|XM_014631546.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_014631546</Hit_accession>
+  <Hit_len>2958</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1096</Hsp_hit-from>
+      <Hsp_hit-to>1150</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|951578592|ref|XM_014631544.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_014631544</Hit_accession>
+  <Hit_len>2870</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1096</Hsp_hit-from>
+      <Hsp_hit-to>1150</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|951578590|ref|XM_014631543.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_014631543</Hit_accession>
+  <Hit_len>2598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1097</Hsp_hit-from>
+      <Hsp_hit-to>1151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|951578587|ref|XM_014631542.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_014631542</Hit_accession>
+  <Hit_len>6824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1093</Hsp_hit-from>
+      <Hsp_hit-to>1147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|951578584|ref|XM_014631541.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_014631541</Hit_accession>
+  <Hit_len>5881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1097</Hsp_hit-from>
+      <Hsp_hit-to>1151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|951578582|ref|XM_014631540.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_014631540</Hit_accession>
+  <Hit_len>4444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1096</Hsp_hit-from>
+      <Hsp_hit-to>1150</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|951578579|ref|XM_014631539.1|</Hit_id>
+  <Hit_def>PREDICTED: Dinoponera quadriceps casein kinase I isoform alpha-like (LOC106750909), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_014631539</Hit_accession>
+  <Hit_len>7401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.697739</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1113</Hsp_hit-from>
+      <Hsp_hit-to>1167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCTCGTAGTCGTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCTCGGTGTGTGCGCGTATGTGTGTGTGGGTGCGTGCGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||   || || |||||||||| ||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51378549</Statistics_db-num>
+      <Statistics_db-len>205464789809</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

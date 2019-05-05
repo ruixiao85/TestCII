@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_165271</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>88</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_165271</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>88</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|399125345|gb|JX017362.1|</Hit_id>
+  <Hit_def>Lujo virus strain IGR140 segment L, complete sequence</Hit_def>
+  <Hit_accession>JX017362</Hit_accession>
+  <Hit_len>7239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.078</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.02187e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>4907</Hsp_hit-from>
+      <Hsp_hit-to>4846</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GTCTCTGTTGCTAGAGAGTGGCTCAAGGTTTCTGAACAAAGATGAATTTGATGTCAAGGCAC</Hsp_qseq>
+      <Hsp_hseq>GTCACTGTTACTAGAGAGTGGCTCAAGGTTTCTGAACAAAGATGAATTTGATGTCAAGGCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|399125342|gb|JX017361.1|</Hit_id>
+  <Hit_def>Lujo virus strain IGR104 segment L, complete sequence</Hit_def>
+  <Hit_accession>JX017361</Hit_accession>
+  <Hit_len>7203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.078</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.02187e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>4871</Hsp_hit-from>
+      <Hsp_hit-to>4810</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GTCTCTGTTGCTAGAGAGTGGCTCAAGGTTTCTGAACAAAGATGAATTTGATGTCAAGGCAC</Hsp_qseq>
+      <Hsp_hseq>GTCACTGTTACTAGAGAGTGGCTCAAGGTTTCTGAACAAAGATGAATTTGATGTCAAGGCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|238852350|gb|FJ952385.1|</Hit_id>
+  <Hit_def>Lujo virus segment L multifunctional matrix-like protein and large RNA-dependent RNA polymerase genes, complete cds</Hit_def>
+  <Hit_accession>FJ952385</Hit_accession>
+  <Hit_len>7163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.078</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.02187e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>4851</Hsp_hit-from>
+      <Hsp_hit-to>4790</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GTCTCTGTTGCTAGAGAGTGGCTCAAGGTTTCTGAACAAAGATGAATTTGATGTCAAGGCAC</Hsp_qseq>
+      <Hsp_hseq>GTCACTGTTACTAGAGAGTGGCTCAAGGTTTCTGAACAAAGATGAATTTGATGTCAAGGCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1042907541|emb|LT594792.1|</Hit_id>
+  <Hit_def>Theobroma cacao genome assembly, chromosome: V</Hit_def>
+  <Hit_accession>LT594792</Hit_accession>
+  <Hit_len>39371879</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.118207</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>37238328</Hsp_hit-from>
+      <Hsp_hit-to>37238304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>AAGGTTTCTGAACAAAGATGAATTT</Hsp_qseq>
+      <Hsp_hseq>AAGGTTTCTGAACAAAGATGAATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1204901259|ref|XR_002445097.1|</Hit_id>
+  <Hit_def>PREDICTED: Herrania umbratica uncharacterized LOC110415437 (LOC110415437), transcript variant X2, ncRNA</Hit_def>
+  <Hit_accession>XR_002445097</Hit_accession>
+  <Hit_len>1093</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.412584</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>713</Hsp_hit-from>
+      <Hsp_hit-to>690</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AGGTTTCTGAACAAAGATGAATTT</Hsp_qseq>
+      <Hsp_hseq>AGGTTTCTGAACAAAGATGAATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1078569896|ref|NG_051803.1|</Hit_id>
+  <Hit_def>Homo sapiens teneurin transmembrane protein 4 (TENM4), RefSeqGene on chromosome 11</Hit_def>
+  <Hit_accession>NG_051803</Hit_accession>
+  <Hit_len>794369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.412584</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>122238</Hsp_hit-from>
+      <Hsp_hit-to>122271</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TGTTGCTAGAGAGTGGCTCAAGGTTTCTGAACAA</Hsp_qseq>
+      <Hsp_hseq>TGTAGCTAGAGAGTGGGTCAACGTTTCTGAGCAA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||| |||| |||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14189771|dbj|AP001838.4|</Hit_id>
+  <Hit_def>Homo sapiens genomic DNA, chromosome 11q clone:RP11-718B20, complete sequences</Hit_def>
+  <Hit_accession>AP001838</Hit_accession>
+  <Hit_len>211652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.412584</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>46355</Hsp_hit-from>
+      <Hsp_hit-to>46322</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TGTTGCTAGAGAGTGGCTCAAGGTTTCTGAACAA</Hsp_qseq>
+      <Hsp_hseq>TGTAGCTAGAGAGTGGGTCAACGTTTCTGAGCAA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||| |||| |||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|82567935|emb|CT027693.11|</Hit_id>
+  <Hit_def>Mouse DNA sequence from clone RP24-120H1 on chromosome 16, complete sequence</Hit_def>
+  <Hit_accession>CT027693</Hit_accession>
+  <Hit_len>186376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>1.44006</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>74516</Hsp_hit-from>
+      <Hsp_hit-to>74476</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>GTGGCTCAAGGTTTCTGAACAAAGATGAATTTGATGTCAAG</Hsp_qseq>
+      <Hsp_hseq>GTGGCTCAAGGATTCTGGCTGAAGATGACGTTGATGTCAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||    |||||||  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1333881634|emb|LN483458.1|</Hit_id>
+  <Hit_def>Culicoides sonorensis genome assembly, scaffold: scaffold108</Hit_def>
+  <Hit_accession>LN483458</Hit_accession>
+  <Hit_len>804455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>594258</Hsp_hit-from>
+      <Hsp_hit-to>594232</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TAGAGAGTGGCTCAAGGTTTCTGAACAAA</Hsp_qseq>
+      <Hsp_hseq>TAGAGAGTG--TCAAGGTTTCTGAACAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1333881533|emb|LN483369.1|</Hit_id>
+  <Hit_def>Culicoides sonorensis genome assembly, scaffold: scaffold19</Hit_def>
+  <Hit_accession>LN483369</Hit_accession>
+  <Hit_len>1216994</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>910178</Hsp_hit-from>
+      <Hsp_hit-to>910204</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TAGAGAGTGGCTCAAGGTTTCTGAACAAA</Hsp_qseq>
+      <Hsp_hseq>TAGAGAGTG--TCAAGGTTTCTGAACAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|648209103|gb|KF432015.1|</Hit_id>
+  <Hit_def>Puccinia cf. psidii AE-2014 ubiquitin thiolesterase gene, complete cds</Hit_def>
+  <Hit_accession>KF432015</Hit_accession>
+  <Hit_len>20356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>19575</Hsp_hit-from>
+      <Hsp_hit-to>19604</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TTTCTGAACAAAGATGAATTTGATGTCAAG</Hsp_qseq>
+      <Hsp_hseq>TTTCTGAACAAAAATGATTTTGATGCCAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||| ||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|61740987|gb|AC124420.4|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP24-322N8 from chromosome 12, complete sequence</Hit_def>
+  <Hit_accession>AC124420</Hit_accession>
+  <Hit_len>164950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>37672</Hsp_hit-from>
+      <Hsp_hit-to>37696</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>TCAAGGTTTCTGAACAAAGATGAAT</Hsp_qseq>
+      <Hsp_hseq>TCAAGGATTCTGAACAAAGATGAAT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1494795965|ref|XM_026837058.1|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X15, mRNA</Hit_def>
+  <Hit_accession>XM_026837058</Hit_accession>
+  <Hit_len>2708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1494795963|ref|XM_026837056.1|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_026837056</Hit_accession>
+  <Hit_len>2711</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1494795961|ref|XM_026837055.1|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_026837055</Hit_accession>
+  <Hit_len>2735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1217</Hsp_hit-from>
+      <Hsp_hit-to>1245</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1494795957|ref|XM_026837053.1|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_026837053</Hit_accession>
+  <Hit_len>2753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1494795955|ref|XM_026837052.1|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_026837052</Hit_accession>
+  <Hit_len>2756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1494795949|ref|XM_026837049.1|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_026837049</Hit_accession>
+  <Hit_len>2774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1494795945|ref|XM_026837047.1|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_026837047</Hit_accession>
+  <Hit_len>2798</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1494795942|ref|XM_018814482.2|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_018814482</Hit_accession>
+  <Hit_len>2816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1494795941|ref|XM_018814481.2|</Hit_id>
+  <Hit_def>PREDICTED: Ciona intestinalis collagen alpha-1(I) chain (LOC100183945), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_018814481</Hit_accession>
+  <Hit_len>2819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAATT-TGATGTCAAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAGGAATTATGATGTCAAGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1279788988|ref|XM_023091725.1|</Hit_id>
+  <Hit_def>PREDICTED: Cucurbita moschata uncharacterized LOC111451344 (LOC111451344), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_023091725</Hit_accession>
+  <Hit_len>1954</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1301</Hsp_hit-from>
+      <Hsp_hit-to>1334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>AGTAGGTCTCTGTTGCTAGAGAGTGGC-TCAAGG</Hsp_qseq>
+      <Hsp_hseq>AGTATGTTTCTGTAGCTAGAGAGTGGCTTCAAGG</Hsp_hseq>
+      <Hsp_midline>|||| || ||||| ||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1279788986|ref|XM_023091724.1|</Hit_id>
+  <Hit_def>PREDICTED: Cucurbita moschata uncharacterized LOC111451344 (LOC111451344), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_023091724</Hit_accession>
+  <Hit_len>2023</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1301</Hsp_hit-from>
+      <Hsp_hit-to>1334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>AGTAGGTCTCTGTTGCTAGAGAGTGGC-TCAAGG</Hsp_qseq>
+      <Hsp_hseq>AGTATGTTTCTGTAGCTAGAGAGTGGCTTCAAGG</Hsp_hseq>
+      <Hsp_midline>|||| || ||||| ||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1279788984|ref|XM_023091723.1|</Hit_id>
+  <Hit_def>PREDICTED: Cucurbita moschata uncharacterized LOC111451344 (LOC111451344), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_023091723</Hit_accession>
+  <Hit_len>2064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1327</Hsp_hit-from>
+      <Hsp_hit-to>1360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>AGTAGGTCTCTGTTGCTAGAGAGTGGC-TCAAGG</Hsp_qseq>
+      <Hsp_hseq>AGTATGTTTCTGTAGCTAGAGAGTGGCTTCAAGG</Hsp_hseq>
+      <Hsp_midline>|||| || ||||| ||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1279788982|ref|XM_023091722.1|</Hit_id>
+  <Hit_def>PREDICTED: Cucurbita moschata uncharacterized LOC111451344 (LOC111451344), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_023091722</Hit_accession>
+  <Hit_len>2038</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1301</Hsp_hit-from>
+      <Hsp_hit-to>1334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>AGTAGGTCTCTGTTGCTAGAGAGTGGC-TCAAGG</Hsp_qseq>
+      <Hsp_hseq>AGTATGTTTCTGTAGCTAGAGAGTGGCTTCAAGG</Hsp_hseq>
+      <Hsp_midline>|||| || ||||| ||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|690476540|emb|LN017481.1|</Hit_id>
+  <Hit_def>Spirometra erinaceieuropaei genome assembly S_erinaceieuropaei ,scaffold SPER_scaffold0017225</Hit_def>
+  <Hit_accession>LN017481</Hit_accession>
+  <Hit_len>10030</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>3858</Hsp_hit-from>
+      <Hsp_hit-to>3899</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGGTCTCTGTTGCTAGAGAGTGGCTCAAGGTTTC</Hsp_qseq>
+      <Hsp_hseq>TTCCCTGAAGGTCTCCATTGCTAGAGAGTGGAACAAGATTTC</Hsp_hseq>
+      <Hsp_midline>|| || | |||||||  ||||||||||||||  |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|207081245|gb|AC213068.5|</Hit_id>
+  <Hit_def>Pan troglodytes BAC clone CH251-24P2 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC213068</Hit_accession>
+  <Hit_len>209476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>116567</Hsp_hit-from>
+      <Hsp_hit-to>116529</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAAT-TTGATGTCAAGGCACACAGGGAGTAG</Hsp_qseq>
+      <Hsp_hseq>ACATAGAGGAAAGTTGATGTGAAGGCACACAGGGAGAAG</Hsp_hseq>
+      <Hsp_midline>||| ||| |||  ||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|7530115|emb|AL121999.18|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP4-543J13 on chromosome 1p13.1-13.3, complete sequence</Hit_def>
+  <Hit_accession>AL121999</Hit_accession>
+  <Hit_len>137490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.02631</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>134410</Hsp_hit-from>
+      <Hsp_hit-to>134448</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>ACAAAGATGAAT-TTGATGTCAAGGCACACAGGGAGTAG</Hsp_qseq>
+      <Hsp_hseq>ACATAGAGGAAAGTTGATGTGAAGGCACACAGGGAGAAG</Hsp_hseq>
+      <Hsp_midline>||| ||| |||  ||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51378549</Statistics_db-num>
+      <Statistics_db-len>204700810597</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

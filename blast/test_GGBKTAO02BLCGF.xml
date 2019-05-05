@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_115201</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>471</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_115201</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>471</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|399125345|gb|JX017362.1|</Hit_id>
+  <Hit_def>Lujo virus strain IGR140 segment L, complete sequence</Hit_def>
+  <Hit_accession>JX017362</Hit_accession>
+  <Hit_len>7239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>770.423</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3746</Hsp_hit-from>
+      <Hsp_hit-to>4201</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>450</Hsp_identity>
+      <Hsp_positive>450</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAAC-TTCTTGTGATG-TTTTTGTGTAACATCTCTATGGGACAGGATTCTAACACTGTCTCTGTCATGACTAATTTGTAGTATTTGGTTGAGTTTCCAACTTCGCTCACAGAAATCTTACATAGAATGAATCCGGAAAGAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTTTCTTGTGATGTTTTTTGTG-AACATCTCTATGGGACAGGATTCTAACACTGTCTCTGTCATGACTAATTTTGAGTATTTTGGTGAGTTTCCAAC-TCGCTCACAGAAATCTT-CATAGAATGAATCCGGAAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| | |||||||||||| ||||||||||||||||| ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|399125342|gb|JX017361.1|</Hit_id>
+  <Hit_def>Lujo virus strain IGR104 segment L, complete sequence</Hit_def>
+  <Hit_accession>JX017361</Hit_accession>
+  <Hit_len>7203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>770.423</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3710</Hsp_hit-from>
+      <Hsp_hit-to>4165</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>450</Hsp_identity>
+      <Hsp_positive>450</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAAC-TTCTTGTGATG-TTTTTGTGTAACATCTCTATGGGACAGGATTCTAACACTGTCTCTGTCATGACTAATTTGTAGTATTTGGTTGAGTTTCCAACTTCGCTCACAGAAATCTTACATAGAATGAATCCGGAAAGAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTTTCTTGTGATGTTTTTTGTG-AACATCTCTATGGGACAGGATTCTAACACTGTCTCTGTCATGACTAATTTTGAGTATTTTGGTGAGTTTCCAAC-TCGCTCACAGAAATCTT-CATAGAATGAATCCGGAAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| | |||||||||||| ||||||||||||||||| ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|238852350|gb|FJ952385.1|</Hit_id>
+  <Hit_def>Lujo virus segment L multifunctional matrix-like protein and large RNA-dependent RNA polymerase genes, complete cds</Hit_def>
+  <Hit_accession>FJ952385</Hit_accession>
+  <Hit_len>7163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>770.423</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3690</Hsp_hit-from>
+      <Hsp_hit-to>4145</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>450</Hsp_identity>
+      <Hsp_positive>450</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAAC-TTCTTGTGATG-TTTTTGTGTAACATCTCTATGGGACAGGATTCTAACACTGTCTCTGTCATGACTAATTTGTAGTATTTGGTTGAGTTTCCAACTTCGCTCACAGAAATCTTACATAGAATGAATCCGGAAAGAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTTTCTTGTGATGTTTTTTGTG-AACATCTCTATGGGACAGGATTCTAACACTGTCTCTGTCATGACTAATTTTGAGTATTTTGGTGAGTTTCCAAC-TCGCTCACAGAAATCTT-CATAGAATGAATCCGGAAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| | |||||||||||| ||||||||||||||||| ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1009284152|gb|KT731537.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis mammarenavirus isolate Comou segment L, complete sequence</Hit_def>
+  <Hit_accession>KT731537</Hit_accession>
+  <Hit_len>7205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.932</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>8.47168e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>3358</Hsp_hit-from>
+      <Hsp_hit-to>3046</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCTCTTTGTATGACAATGCAAACTTCAGTCTTCCGGAATCAGGACCAACTGAAGTGTATGACGTTGGTGATTCTTCTGAATAAAAACACAAGTTCTTTAAAGCAGCACTCATGCATTTTGTTAAGGACAGAGCTTTACTTAAAGACTCAGAATTGCTTTCTCTTTCACTGATCCTAACATCTTCTTCCAACTTGTCCCAATCAAACTTGAAATTCAGACCCTGTCTTTGCATATGCCTGTATTTTCCTGAGTATGCATTTGCATTCATTTGCAGTAGAATCATCTTCATACACGAAAACCAATCTCCTTCT</Hsp_hseq>
+      <Hsp_midline>||| || |||||||| || |  ||||  || || || |  || |||||| |   | |||| || || ||||| || |||||||| ||||||||||| || | ||  |   | |||||||| || || |||||   |||||  | || ||||||||| || ||||||||||| |||||  ||||||| |  |  || |   ||||||||||  |||| || |   ||||     | ||| || || | || |||||   |||  |||| | ||||| ||  ||  |||| |  ||    ||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1208606351|gb|MF276975.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis mammarenavirus strain Y RNA-dependent RNA polymerase gene, partial cds</Hit_def>
+  <Hit_accession>MF276975</Hit_accession>
+  <Hit_len>3393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.129</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.95691e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>794</Hsp_hit-from>
+      <Hsp_hit-to>1132</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTTCTTG-TGATGTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGCTCTTTGTATGATAACGCAAACTTCAGCCTTCCGGAATCAGGACCAACTGAAGTGTATGACGTCGGTGACTCCTCTGAGTAAAAGCATAAATTCTTCAAAGCAGCACTCATGCATTTTGTCAATGATAGAGCCTTACTTAGAGACTCAGAATTACTTTCCCTTTCACTAATTCTAACGTCTTCTTCTAGTTTGTCCCAGTCAAACTTGAAATTCAGACCTTGTCTTTGCATGTGTCTGTATTTCCCTGAGTATGCATTTGCATTCATCTGCAGTAGAATCATCTTCATACACGAAAACCAATCACCCTCTGAAAAAAACTTCCTGCAGAGGTTTTT</Hsp_hseq>
+      <Hsp_midline>||| || ||||||||||| |  ||||  ||||| || |  || |||||| |   | |||| || || |||||||| ||||| || || || || || |||| ||  |   | |||||||| || || || ||    ||||  | || |||||||||||| || |||||||| || ||  | ||||| |  ||||| |   | ||||||||  |||| || | | ||||     ||||  || || | || |||||   |||  |||| |  |||| ||  ||  |||| |  ||    |||||||| ||||||  | |||||||| ||  || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1407721790|gb|MF579421.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis mammarenavirus strain GS98 RNA-dependent RNA polymerase gene, partial cds</Hit_def>
+  <Hit_accession>MF579421</Hit_accession>
+  <Hit_len>3429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.014</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.53172e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>813</Hsp_hit-from>
+      <Hsp_hit-to>1130</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAA</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAAGATAATGCAAACTTCAGCCTCCCAGAGTCAGGGCCAACAGAGGTGTATGAGGTTGGGGACTCCTCTGAGTAGAAACACAAGTTCTTTAAAGCAGCACTCATGCATTTTGTCAAGGACAGGGCCTTGCTTAGGGATTCAGAATTACTCTCCCTTTCACTAATCCTTACATCCTCCTCCAGTCTGTCCCAGTCAAATTTGAAGTTCAAACCTTGTCTCTGTGCATGCCTGTATTTGCCTGAGTATGCATTTGCATTCATTTGCAACAATATCATTTTCAAACATGAAAACCAAT---CCTCTTCTGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||| |  ||||  ||||| || | ||| || ||| ||    |||| ||||| || ||||| ||||| |||||||||||||| || | ||  |   | |||||||| || || |||||    || |  |  |  |||||||||||||| |||||||| |||||  |||| || |  ||| | |   | ||||| ||  | || |  | | ||||       ||| || || | || |||||   |||  |||| | |||||| || ||  | || || |||   |||||||   |||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|258489197|gb|FJ607026.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis virus strain 200504261 segment L, complete sequence</Hit_def>
+  <Hit_accession>FJ607026</Hit_accession>
+  <Hit_len>7238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.014</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.53172e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>3854</Hsp_hit-from>
+      <Hsp_hit-to>4176</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATT-AAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTT</Hsp_qseq>
+      <Hsp_hseq>TGCTCTTTGTAAGATAGTGCGAACTTTAGTCTTCCAGAATCAGGACCAACAGAAGTGTATGATGTCGGTGACTCTTCTGAGTAAAAGCACAGGTTCTTCAAGGCAGCACTCATGCATTTTGTCAATGACAGAGCCTTGCTTAGAGACTCAGAATTACTCTCTCTTTCACTAATTCTTACATCTTCTTCTAATTTGTCCCAATCGAATTTAAAGTTCAAGCCCT-GCCTTTGCATGTGTCTGTATTTCCCTGAATATGCATTTGCATTCATTTGTAATAAAATCATTTTCATGCATGAAAACCAATCACCCTCTGAAAAAAACTT</Hsp_hseq>
+      <Hsp_midline>|| || ||||| ||||  | |||||  || || || |  || |||||| ||  | |||| || || |||||||| ||||| || || |||| ||| ||||  |  |   | |||||||| || || |||||    || |  | || |||||||||||||||||||||||| || ||  ||||||| |  | ||| |   |||| || ||| | || ||| | | | ||     ||||  || || | || || ||   |||  |||| | ||| ||||| ||  | || | ||||   |||||||| ||||||  | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|258489179|gb|FJ607021.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis virus strain 200501927 segment L, complete sequence</Hit_def>
+  <Hit_accession>FJ607021</Hit_accession>
+  <Hit_len>7238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.53172e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>3854</Hsp_hit-from>
+      <Hsp_hit-to>4176</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTT-TTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATT-AAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTT</Hsp_qseq>
+      <Hsp_hseq>TGCTCTTTGTAAGATAGTGCGAACTTTAGTCTTCCAGAATCAGGACCAACAGAAGTGTATGATGTCGGTGACTCTTCTGAGTAAAAGCACAGGTTCTTTAAGGCAGCAC-TCATGCATTTTGTCAATGACAGAGCCTTGCTTAGAGACTCAGAATTACTCTCTCTTTCACTAATTCTTACATCTTCTTCTAATTTGTCCCAATCGAATTTAAAGTTCAAGCCCT-GCCTTTGCATGTGTCTGTATTTCCCTGAATATGCATTTGCATTCATTTGTAATAAAATCATTTTCATGCATGAAAACCAATCACCCTCTGAAAAAAACTT</Hsp_hseq>
+      <Hsp_midline>|| || ||||| ||||  | |||||  || || || |  || |||||| ||  | |||| || || |||||||| ||||| || || |||| ||| ||| ||   | || | |||||||| || || |||||    || |  | || |||||||||||||||||||||||| || ||  ||||||| |  | ||| |   |||| || ||| | || ||| | | | ||     ||||  || || | || || ||   |||  |||| | ||| ||||| ||  | || | ||||   |||||||| ||||||  | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1529969681|gb|MK117867.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-wt/NGA/2017/IRR_008 Z protein (Z) and polymerase (L) genes, partial cds</Hit_def>
+  <Hit_accession>MK117867</Hit_accession>
+  <Hit_len>7082</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.997</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>7.93449e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3634</Hsp_hit-from>
+      <Hsp_hit-to>3818</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAAGATAGAGAGAATTTTAGTCTACCAGTGTCAGGGCCAATTGAATTGTAAGACTGGGGTGACTCTTGACTATAAAAACACAAATTTTTCAGCATTGCTGTAGTGCAGTTAGTTAAAGATAAAGCTTTACTAAGTGCCTCTGAATTGCTCTCTCGCTCACTTATTCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||| |||||| |  || ||||| ||||| || |||     |||||| ||   ||||||||| |    ||| |||||||| ||||||||  | |  ||| |||| ||||| ||||| |    |||||  |  ||||| ||||| |||||||  |||||||| ||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|115383209|gb|DQ868488.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis virus strain Traub segment L, complete sequence</Hit_def>
+  <Hit_accession>DQ868488</Hit_accession>
+  <Hit_len>7223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.587</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>3.37383e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>3838</Hsp_hit-from>
+      <Hsp_hit-to>4162</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACAC-AAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTTC</Hsp_qseq>
+      <Hsp_hseq>CTGTTCTTTATATGATAATGCAAACTTCAGCCTTCCGGAATCAGGACCGACTGAAGTGTATGATGTTGGTGATTCCTCTGAGTAGAAACACAAATTTTTTAAGGCTGCAC-TCATGCATTTTGTCAATGACAGGGCTTTGCTTAAAGATTCAGAATTACTTTCCCTTTCACTGATTCTCACGTCCTCTTCCAATTTGTCCCAGTCAAACTTGAAATTTAGGCCCTGTCTCTGCATGTGTCTGTATTTCCCTGAGTATGCATTTGCGTTCATCTGCAACAAAATCATTTTCATACACGAAAACCAATCACCCTCTGAAAAGAACTTC</Hsp_hseq>
+      <Hsp_midline>|||||| || |||||||| |  ||||  ||||| || |  || |||||  |   | |||| || || ||||| || ||||| ||||||||| || ||||| ||  || || | |||||||| || || |||||   ||| |  | ||  ||||||||||| || |||||||| || ||  | || || |  | ||| |   | ||||||||  |||| || |   ||||     ||||  || || | || |||||   |||  | || |  ||||| || ||  | || |  ||    |||||||| ||||||  | | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1360839769|gb|MH053556.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate Lassa virus/H.sapiens-wt/NGA/2016/ISTH_0779 segment L Z protein (Z) and polymerase (L) genes, partial cds</Hit_def>
+  <Hit_accession>MH053556</Hit_accession>
+  <Hit_len>7082</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.685</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.37383e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3634</Hsp_hit-from>
+      <Hsp_hit-to>3818</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAAGATAGAGAAAATTTTAGCCTACCAGTGTCGGGGCCAGTTGAATTGTAAGATTGAGGTGACTC--CTGACTATAAAAACACAAATTTTTTAGCATTGCTGTAGTGCAATTGGTTAGAGACAAAGCTTTGCTAAGTGCCTCTGAATTACTCTCTCGCTCACTTATTCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||| ||| || |  |||||||| ||||| || ||||    |||||| ||    ||||||||  ||||  ||| |||||||| ||||| ||  | |  ||| |||| || || | |||||    ||| |  |  ||||| |||||||||||||  |||||||| ||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1464310780|ref|NC_039011.1|</Hit_id>
+  <Hit_def>Souris virus isolate PREDICT-05775,5302,5304 segment L, complete sequence &gt;gi|753248271|gb|KP050226.1| Souris virus isolate PREDICT-05775,5302,5304 segment L, complete sequence</Hit_def>
+  <Hit_accession>NC_039011</Hit_accession>
+  <Hit_len>7263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.685</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.37383e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3770</Hsp_hit-from>
+      <Hsp_hit-to>3951</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACA-AGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATC</Hsp_qseq>
+      <Hsp_hseq>TGCTCCTTGTAGGACAAAGCAAACTTAAGTCTGCCTGAGTCAGGACAGACTGAATTATATGACGTTGGTGATTCTTCAGAATAGAAACAGAGATTTTTTAAGGCTGAACTTAA-GCAATTAGTTAGACTAAGCGCCTTACTCATAGCCTCAGAATTACTCTCTCTTTCACTAATTCTTACATC</Hsp_hseq>
+      <Hsp_midline>|| |||||||| || ||||  ||||  || || || | ||| ||||   |   ||| || || || ||||| || || ||||||||||| | | ||||| ||  || || ||| ||| ||||| | |   |||   |||| |||||||||||||||||||||||||||||| || ||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|695313385|gb|KM821799.1|</Hit_id>
+  <Hit_def>Lassa virus strain G1442-SLE-2011 segment L Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>KM821799</Hit_accession>
+  <Hit_len>7291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.685</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.37383e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>3737</Hsp_hit-from>
+      <Hsp_hit-to>3930</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTT</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTATGACAAAGAGAACTTAAGCCTTCCTGTGTCAGGCCCTACTGAATCATAAGACTGTGGTGACTCTTGACTATAAAAACATAAGTTCTTCAGCATTGCTGTAGTGCAGTTTGTCAATGACAGGGCTTTACTAAGCGCCTCTGAGTTACTCTCCCTCTCACTAATCCTGACATCATCAGAGAGCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||||||  ||||| || ||||| || ||  |   ||  || ||    |||||||| |    ||| ||||| ||||| |||||  | |  ||| |||| || || || |||||   |||||  |  ||||| || |||||||| || ||||| |||||| |||| ||  |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|162945387|gb|EU136039.1|</Hit_id>
+  <Hit_def>Dandenong virus isolate 0710-2678 segment L Z protein (Z) and RNA-dependent RNA polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>EU136039</Hit_accession>
+  <Hit_len>7215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.783</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.17758e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>3863</Hsp_hit-from>
+      <Hsp_hit-to>4189</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATT--AAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTTCTTG</Hsp_qseq>
+      <Hsp_hseq>TGTTCTTTGTAGGATAATGCGAATTTTAGCCTCCCAGAATCAGGGCCCACAGAGGTGTACGATGTTGGCGACTCCTCTGAGTAAAAACAGAGGTTCTTTAAGGCAGCGCTCATACACTTTGTTAATGACAGGGCCTTACTCAGTGACTCAGAATTACTCTCTCTTTCACTAATCCTCACATCCTCCTCAAGCCTATCCCAATCAAACTTGAAGTTCAAACCCTGTCTCTGCA--CATGCCTATATTTACCTGAGTATGCATTAGCATTCATCTGCAGTAGTATCATTTTCAAACATGAGAACCAATCCCCCTCTGAAAAAAACTTCCTG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| | ||| |  ||||| || |  || || ||  ||    |||| || || || ||||| ||||| || ||||| | ||| || |  |  |   | || || || || || |||||    |||| ||  | |||||||||||||||||||||||| |||||  |||| || |  ||  | |   ||||||||||  | ||  ||  ||   |||| |    ||| |  || |||| |||||   |||  |||| |  |||| ||  ||  | || || |||  ||||||||| ||||||  | |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1032562923|gb|KT992434.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus strain ONM-700 polymerase (L) and matrix protein (Z) genes, complete cds</Hit_def>
+  <Hit_accession>KT992434</Hit_accession>
+  <Hit_len>7183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.17758e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3446</Hsp_hit-from>
+      <Hsp_hit-to>3229</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>TGTTCTTTATAGGATAAAGAGAACTTTAGCCTCCCTGTATCAGGCCCAGTAGAATTGTAAGACTGTGGTGACTCCTGGCTATAAAAACATAGGTTCTTCAACATTGCTGTAGTGCAGCTTGTTAAAGACAGAGCCTTACTGAGAGCTTCTGAATTGCTCTCTCTTTCACTAATTCTCACATCATCAGAAAGCTTGTTGGTGTCAAACTTGAAATTCAG</Hsp_hseq>
+      <Hsp_midline>||||| || || |||||||||||||  ||||| || || || || |||| |  |||||| ||    |||||||| |    ||| ||||| | ||| ||||   | |  ||| ||||  | || ||||||||    ||||  | ||| || ||||| |||||||||||||| || ||  |||| ||  | || || |||   ||||||||  |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1032562920|gb|KT992433.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus strain ONM-314 polymerase (L) and matrix protein (Z) genes, complete cds</Hit_def>
+  <Hit_accession>KT992433</Hit_accession>
+  <Hit_len>7198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.17758e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3455</Hsp_hit-from>
+      <Hsp_hit-to>3238</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>TGTTCTTTATAGGATAAAGAGAACTTTAGCCTCCCTGTATCAGGCCCAGTAGAATTGTAAGACTGTGGTGACTCCTGGCTATAAAAACATAGGTTCTTTAACATTGCTGTAGTGCAGTTTGTTAAAGACAGAGCCTTACTGAGAGCTTCTGAATTGCTCTCTCTTTCACTAATTCTCACATCATCAGAAAGCTTGTTGGTGTCAAACTTGAAATTCAG</Hsp_hseq>
+      <Hsp_midline>||||| || || |||||||||||||  ||||| || || || || |||| |  |||||| ||    |||||||| |    ||| ||||| | ||| || |   | |  ||| |||| || || ||||||||    ||||  | ||| || ||||| |||||||||||||| || ||  |||| ||  | || || |||   ||||||||  |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1032562917|gb|KT992432.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus strain ONM-299 polymerase (L) and matrix protein (Z) genes, complete cds</Hit_def>
+  <Hit_accession>KT992432</Hit_accession>
+  <Hit_len>7198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.17758e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3455</Hsp_hit-from>
+      <Hsp_hit-to>3238</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>TGTTCTTTATAGGATAAAGAGAACTTTAGCCTCCCTGTATCAGGCCCAGTAGAATTGTAAGACTGTGGTGACTCCTGGCTATAAAAACATAGGTTCTTTAACATTGCTGTAGTGCAGTTTGTTAAAGACAGAGCCTTACTGAGAGCTTCTGAATTGCTCTCTCTTTCACTAATTCTCACATCATCAGAAAGCTTGTTGGTGTCAAACTTGAAATTCAG</Hsp_hseq>
+      <Hsp_midline>||||| || || |||||||||||||  ||||| || || || || |||| |  |||||| ||    |||||||| |    ||| ||||| | ||| || |   | |  ||| |||| || || ||||||||    ||||  | ||| || ||||| |||||||||||||| || ||  |||| ||  | || || |||   ||||||||  |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|383212120|dbj|AB627955.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis virus genomic RNA, segment: L, complete sequence, strain: OQ28</Hit_def>
+  <Hit_accession>AB627955</Hit_accession>
+  <Hit_len>7248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.17758e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>3863</Hsp_hit-from>
+      <Hsp_hit-to>4090</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCTCTTTGTATGATAATGCAAACTTCAGTCTTCCTGAATCAGGACCGACTGAAGTGTATGATGTTGGTGACTCCTCTGAGTAAAAACATAAATTCTTTAAAGCAGCACTCATACATTTTGTCAATGACAGAGCCTTACTTAGAGACTCAGAATTACTTTCTCTTTCACTAATCCTAACATCCTCCTCTAGTCTGTCCCAGTCAAACTTGAAATTCAGACCTTGTCT</Hsp_hseq>
+      <Hsp_midline>||| || ||||||||||| |  ||||  || || || |  || |||||  |   | |||| || || |||||||| ||||| || ||||| || || || | ||  |   | || ||||| || || |||||    ||||  | || |||||||||||| ||||||||||| |||||  |||| || |  ||| | |   | ||||||||  |||| || | | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|115383203|gb|DQ868486.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis virus strain Pasteur segment L, complete sequence</Hit_def>
+  <Hit_accession>DQ868486</Hit_accession>
+  <Hit_len>7229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.17758e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>3843</Hsp_hit-from>
+      <Hsp_hit-to>4183</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATT-AAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTTCTTGTGATGTTTTTGTG</Hsp_qseq>
+      <Hsp_hseq>CTGCTCCTTGTAAGATAATGCAAATTTCAGTCTCCCAGAATCAGGACCAACTGAAGTGTATGATGTTGGTGACTCTTCTGAATAGAAACACAAATTTTTTAAGGCAGCACTCATGCACTTCGTCAATGATAAGGCCTTACTTAAAGATTCAGAATTGCTTTCTCTTTCGCTGATTCTTACGTCTTCTTCCAGCTTATCCCAGTCAAATTTGAAATTCAAGCCCT-GTCTTTGTATATGCCTATACTTTCCTGAGTATGCATTCGCATTCATTTGCAATAGGATCATCTTCATACATGAAAACCAATCGCCCTCTGAAAAGAATTTCCTGCAAAGGTTTTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||||| ||||| |  || |  || || || |  || |||||| |   | |||| || || |||||||| ||||||||||||||||| ||||| |  |  |   | ||||| || || || || |     ||||  | ||  |||||||| || |||||||| || || ||  | ||||| |  || || |   | ||||| ||  |||| ||| | | ||||     | ||| |  |  | || |||||   |||| |||| | |||||||| |||  |||| |  |||   |||||||| ||||||  | | || ||| ||  | | |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|158726684|gb|EU195889.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis virus strain MX L protein gene, complete cds</Hit_def>
+  <Hit_accession>EU195889</Hit_accession>
+  <Hit_len>6668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.17758e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>3383</Hsp_hit-from>
+      <Hsp_hit-to>3043</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATT-AAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTTCTTGTGATGTTTTTGTG</Hsp_qseq>
+      <Hsp_hseq>CTGCTCTTTGTAAGATAATGCAAATTTCAGTCTTCCAGAATCAGGACCAACTGAAGTGTATGATGTTGGTGACTCTTCTGAATAGAAACACAAATTTTTTAAAGCAGCACTCATGCACTTCGTCAATGATAAGGCTTTACTTAAAGATTCAGAATTGCTTTCTCTTTCGCTGATTCTTACGTCCTCTTCCAGCTTATCCCAGTCAAATTTGAAATTCAAGCCCT-GTCTTTGTATATGCCTATACTTTCCTGAGTATGCATTCGCATTCATTTGCAATAGGATCATCTTCATACATGAAAACCAATCGCCCTCTGAAAAGAATTTCCTGCAAAGGTTTTTTG</Hsp_hseq>
+      <Hsp_midline>||| || ||||| ||||| |  || |  || || || |  || |||||| |   | |||| || || |||||||| ||||||||||||||||| ||||| | ||  |   | ||||| || || || || |    |||||  | ||  |||||||| || |||||||| || || ||  | || || |  || || |   | ||||| ||  |||| ||| | | ||||     | ||| |  |  | || |||||   |||| |||| | |||||||| |||  |||| |  |||   |||||||| ||||||  | | || ||| ||  | | |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|695314379|gb|KM821908.1|</Hit_id>
+  <Hit_def>Lassa virus strain G3278-SLE-2013 segment L Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>KM821908</Hit_accession>
+  <Hit_len>7284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>4.11017e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>3751</Hsp_hit-from>
+      <Hsp_hit-to>3945</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTT</Hsp_qseq>
+      <Hsp_hseq>CTGTTCTTTGTATGATAAAGAAAATTTGAGCCTCCCTGTGTCAGGTCCCACTGAGTTGTACGACTGTGGTGACTCTTGACTATAAAAACACAAGTTCTTCAGCATTGCTGTGGTGCAGTTAGTCAGTGATAGAGCTTTACTAAGTGCCTCTGAGTTGCTCTCTCTCTCACTAATCCTCGCATCATCAGAAAGTTT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||| || | |||||| || ||||| || ||  |    ||||| ||    |||||||| |    ||| ||||||||||| |||||  | |  ||  |||| ||||| |  || ||   |||||  |  ||||| || || |||||||| ||||| ||||| ||||| ||  | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1529678169|gb|MK044799.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus strain Bantou289 L protein gene, complete cds</Hit_def>
+  <Hit_accession>MK044799</Hit_accession>
+  <Hit_len>6654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.177</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.43459e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3378</Hsp_hit-from>
+      <Hsp_hit-to>3160</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTATATGACAGAGAGAACTTGAGCCTCCCTGTGTCAGGCCCTGTTGAACTGTAAGACTGTGGTGACTCTTGACTATAAAAACAGAGATTTTTCAACATTGCTGTAGTACAATTTGTCAGTGACAGTGCTTTACTAAGTGCCTCTGAATTACTCTCTCTCTCACTAATTCTGACATCGTCGGAAAGCCTACCCATATCAAACTTAAAATTAAG</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||| | |||||||| |||||| || ||||| || || |    | |||| ||    |||||||| |    ||| ||||| |  |||||||   | |  ||| | || || || |  |||||   |||||  |  ||||| |||||||||||||| ||||| || ||| |||| ||| | ||  |      |||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1493629890|gb|MH887907.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate H.sapiens-wt/NGA/2018/LASV0068-ONDO-2017 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MH887907</Hit_accession>
+  <Hit_len>7210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.177</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.43459e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3733</Hsp_hit-from>
+      <Hsp_hit-to>3917</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAAGACAAAGAAAATTTTAGTCTACCAGTGTCAGGGCCAGTTGAATTATAAGATTGAGGTGATTC--CTGACTGTAAAAACACAAGTTTTTCAACATTGCTGTAGTACAGTTAGTTAAGGACAAGGCTTTACTAAGTGCTTCAGAATTACTCTCACGTTCACTTATCCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||| || ||||| || |  || ||||| ||||| || ||||    ||| || ||    ||||| ||  ||||   || ||||||||||||||||   | |  ||| | || ||||| || ||||    |||||  |  || |||||||||||||| | ||||||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|316308915|gb|GU979513.1|</Hit_id>
+  <Hit_def>Lassa virus strain BA366 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>GU979513</Hit_accession>
+  <Hit_len>7207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.177</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.43459e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3722</Hsp_hit-from>
+      <Hsp_hit-to>3940</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTATATGACAGAGAGAACTTGAGCCTCCCTGTGTCAGGTCCTGTTGAACTGTAAGACTGTGGTGACTCTTGACTATAAAAACAGAGATTTTTCAACATTGCTGTAGTACAATTTGTCAGTGACAGTGCTTTACTAAGTGCCTCTGAATTACTCTCTCTCTCACTAATTCTGACATCGTCGGAAAGCCTGCCCATATCAAACTTAAAATTAAG</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||| | |||||||| |||||| || ||||| || || |    | |||| ||    |||||||| |    ||| ||||| |  |||||||   | |  ||| | || || || |  |||||   |||||  |  ||||| |||||||||||||| ||||| || ||| |||| ||| | ||  |      |||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1525820478|dbj|LC387487.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus Nig16-13 Z, L genes for Z protein, polymerase, complete cds, segment L</Hit_def>
+  <Hit_accession>LC387487</Hit_accession>
+  <Hit_len>7167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.275</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.43459e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3714</Hsp_hit-from>
+      <Hsp_hit-to>3932</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTCAGTCTACCGGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACACAGATTCTTCAACATTGCTGTGGTACAATTGGTTAGAGATAAAGCTTTGCTAAGTGCCTCAGAATTACTCTCCCGTTCACTTATTCTGACATCGTCAGCCAATTTTCCTGT-GTCAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  || ||||| ||||| |||||||    |||||| ||    |||||||| |    ||| |||||||  || ||||   | |  ||  | || || || | ||| |    ||| |  |  ||||||||||||||||| | ||||||||| ||| |||| || |   | |||  |||  ||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1529955198|gb|MK107875.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-tc/NGA/2016/IRR_016 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MK107875</Hit_accession>
+  <Hit_len>7195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.373</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3742</Hsp_hit-from>
+      <Hsp_hit-to>3959</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTATAGGATAGAGAGAACTTTAGCCTCCCTGTATCAGGCCCAGTAGAATTGTAAGACTGTGGTGACTCCTGGCTATAAAAACACAGGTTCTTTAACATTGCTGTAGTGCAGTTTGTTAAAGACAGAGCCTTACTGAGAGCTTCTGAGTTGCTTTCTCTTTCACTAATTCTTACATCATCAGAAAGCTTGTTAGTGTCAAACTTAAAATTCAG</Hsp_hseq>
+      <Hsp_midline>|||||||| || |||| ||||||||  ||||| || || || || |||| |  |||||| ||    |||||||| |    ||| ||||||| ||| || |   | |  ||| |||| || || ||||||||    ||||  | ||| || || || || ||||||||||| || ||  |||| ||  | || || ||    ||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1430740447|gb|MG554172.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis mammarenavirus strain JX31 segment L, complete sequence</Hit_def>
+  <Hit_accession>MG554172</Hit_accession>
+  <Hit_len>7253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.373</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3868</Hsp_hit-from>
+      <Hsp_hit-to>4085</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>TGCTCTTTGTAAGATAGTGCAAACTTCAGCCTTCCGGAATCAGGCCCAACCGAGGTATATGATGTTGGTGATTCTTCTGAATAAAAACACAAGTTTTTTAAGGCAGCACTCATGCATTTCGTCAATGACAGAGCCTTACTTAAAGACTCAGAATTACTCTCCCTTTCACTAATTCTCACATCTTCTTCTAATTTGTCCCAGTCAAACTTGAAATTCAG</Hsp_hseq>
+      <Hsp_midline>|| || ||||| ||||  |  ||||  ||||| || |  || || ||| |     | || || || ||||| || |||||||| |||||||||||||| |  |  |   | |||||||| || || |||||    ||||  | || ||||||||||||||| |||||||| || ||  ||||||| |  | ||| |   | ||||||||  |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|695313371|gb|KM821797.1|</Hit_id>
+  <Hit_def>Lassa virus strain G1200-LIB-2010 segment L Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>KM821797</Hit_accession>
+  <Hit_len>7204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.373</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3740</Hsp_hit-from>
+      <Hsp_hit-to>3957</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>TGTTCTTTATATGATAGAGAGAACTTGAGTCTCCCTGTGTCAGGTCCTATTGAGTTGTAAGATTGTGGTGACTCTTGGCTATAGAAACACAAGTTCTTCAGCATTGCTGTGGTGCAATTTGTCAATGATAGAGCTTTGCTGAGTGCCTCTGAGTTACTCTCCCTTTCACTAATCCTGACATCATCAGAAAGCTTACCCATGTCAAACTTAAAATTAAG</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||| |||||||| ||| || || ||||| || ||       ||||| ||    |||||||| |    ||||||||||||||| |||||  | |  ||  |||| || || || || ||   ||| |  |  ||||| || |||||||| |||||||| |||||| |||| ||  | || ||       ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1529969757|gb|MK117879.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-wt/NGA/2018/IRR_013 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MK117879</Hit_accession>
+  <Hit_len>7230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3744</Hsp_hit-from>
+      <Hsp_hit-to>3962</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAAAATTTTAGTCTACCAGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTC--CTGACTATAAAAACACAGGTTTTTTAACATTGCTGTGGTACAGTTGGTTAGAGATAAAGCTTTGCTAAGTGCTTCAGAGTTACTCTCCCGTTCACTTATTCTGACATCATCAGCCAATTTTCCTGT-ATCAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||| || |  || ||||| ||||| |||||||    |||||| ||    ||||||||  ||||  ||| ||||||| |||||| |   | |  ||  | || || || | ||| |    ||| |  |  || ||||| |||||||| | ||||||||| ||| |||| || |   | |||  ||| |||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1529969749|gb|MK117878.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-wt/NGA/2018/IRR_011 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MK117878</Hit_accession>
+  <Hit_len>7252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3757</Hsp_hit-from>
+      <Hsp_hit-to>3975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAAAATTTTAGTCTACCAGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTC--CTGACTATAAAAACACAGGTTTTTTAACATTGCTGTGGTACAGTTGGTTAGAGATAAAGCTTTGCTAAGTGCTTCAGAGTTACTCTCCCGTTCACTTATTCTGACATCATCAGCCAATTTTCCTGT-ATCAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||| || |  || ||||| ||||| |||||||    |||||| ||    ||||||||  ||||  ||| ||||||| |||||| |   | |  ||  | || || || | ||| |    ||| |  |  || ||||| |||||||| | ||||||||| ||| |||| || |   | |||  ||| |||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1529960118|gb|MK117833.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-wt/NGA/2018/IRR_013_I Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MK117833</Hit_accession>
+  <Hit_len>7228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3744</Hsp_hit-from>
+      <Hsp_hit-to>3962</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAAAATTTTAGTCTACCAGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTC--CTGACTATAAAAACACAGGTTTTTTAACATTGCTGTGGTACAGTTGGTTAGAGATAAAGCTTTGCTAAGTGCTTCAGAGTTACTCTCCCGTTCACTTATTCTGACATCATCAGCCAATTTTCCTGT-ATCAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||| || |  || ||||| ||||| |||||||    |||||| ||    ||||||||  ||||  ||| ||||||| |||||| |   | |  ||  | || || || | ||| |    ||| |  |  || ||||| |||||||| | ||||||||| ||| |||| || |   | |||  ||| |||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1529955150|gb|MK107867.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-tc/NGA/2016/IRR_007 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MK107867</Hit_accession>
+  <Hit_len>7299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3750</Hsp_hit-from>
+      <Hsp_hit-to>3934</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAAGATAAGGAAAATTTCAGCCTACCAGTGTCAGGGCCAGTTGAGTTGTAAGACTGAGGTGATTCTTGACTATAAAAACACAAGTTCTTCAACATTGCTGTTGTGCAGTTGGTCAAGGACAGAGCTTTACTGAGTGCTTCTGAATTACTCTCTCGTTCACTTATTCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||| || || |  |||||||| ||||| || ||||     ||||| ||    ||||| || |    ||| ||||||||||| ||||   | |  ||  |||| || || || |||||   |||||  |  || || ||||||||||||| ||||||||| ||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1493630075|gb|MH887969.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate H.sapiens-wt/NGA/2018/LASV0127-EBONYI-2018 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MH887969</Hit_accession>
+  <Hit_len>7200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3706</Hsp_hit-from>
+      <Hsp_hit-to>3924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAAAATTTTAGTCTACCAGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTC--CTGACTATAAAAACACAGGTTTTTTAACATTGCTGTGGTACAGTTGGTTAGAGATAAAGCTTTGCTAAGTGCTTCAGAGTTACTCTCCCGTTCACTTATTCTGACATCATCAGCCAATTTTCCTGT-ATCAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||| || |  || ||||| ||||| |||||||    |||||| ||    ||||||||  ||||  ||| ||||||| |||||| |   | |  ||  | || || || | ||| |    ||| |  |  || ||||| |||||||| | ||||||||| ||| |||| || |   | |||  ||| |||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1493630045|gb|MH887959.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate H.sapiens-wt/NGA/2018/LASV0125-EBONYI-2018 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MH887959</Hit_accession>
+  <Hit_len>7198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.00721e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3704</Hsp_hit-from>
+      <Hsp_hit-to>3922</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAAAATTTTAGTCTACCAGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTC--CTGACTATAAAAACACAGGTTTTTTAACATTGCTGTGGTACAGTTGGTTAGAGATAAAGCTTTGCTAAGTGCTTCAGAGTTACTCTCCCGTTCACTTATTCTGACATCATCAGCCAATTTTCCTGT-ATCAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||| || |  || ||||| ||||| |||||||    |||||| ||    ||||||||  ||||  ||| ||||||| |||||| |   | |  ||  | || || || | ||| |    ||| |  |  || ||||| |||||||| | ||||||||| ||| |||| || |   | |||  ||| |||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1529970090|gb|MK117932.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-wt/NGA/2018/IRR_101 Z protein (Z) gene, complete cds; and polymerase (L) gene, partial cds</Hit_def>
+  <Hit_accession>MK117932</Hit_accession>
+  <Hit_len>7136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.74769e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3757</Hsp_hit-from>
+      <Hsp_hit-to>3975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTNAGTCTACCGGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACACAGATTCTTTAACATTGCTGTGGTACAATTGGTTAGAGATAAAGCTTTACTAAGTGCCTCAGAGTTACTCTCCCGTTCACTTATTCTGACATCGTCAGCCAATTTTCCTGT-GTCAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  || ||||| ||||| |||||||    |||||| ||    |||||||| |    ||| |||||||  || || |   | |  ||  | || || || | ||| |    |||||  |  |||||||| |||||||| | ||||||||| ||| |||| || |   | |||  |||  ||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1529955166|gb|MK107870.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-tc/NGA/2016/IRR_026 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MK107870</Hit_accession>
+  <Hit_len>7230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.74769e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3745</Hsp_hit-from>
+      <Hsp_hit-to>3962</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAGGATAAAGAAAATTTCAGTCTACCGGTATCAGGACCAGTTGAATTGTAAGACTGGGGTGACTC--CTGACTATAAAAACATAGATTTTTTAACATTGCCGTGGTACAATTGGTTAGAGATAAAGCTTTGCTAAGTGCTTCAGAATTACTCTCCCGTTCACTTATTCTGACATCATCAGCTAATTTTTCTGT-ATTAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||| || |  || ||||| || || |||||||    |||||| ||   |||||||||  ||||  ||| ||||| |  ||||| |   | | |||  | || || || | ||| |    ||| |  |  || |||||||||||||| | ||||||||| ||| |||| || |   | |||| ||| || ||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1493629991|gb|MH887941.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate H.sapiens-wt/NGA/2018/LASV0182-EDO-2018 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MH887941</Hit_accession>
+  <Hit_len>7217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.74769e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3729</Hsp_hit-from>
+      <Hsp_hit-to>3913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAAGACAAAGAAAATTTTAGTCTACCAGTGTCAGGGCCAGTTGAATTATAAGATTGAGGTGACTC--CTGACTGTAAAAACACAGGTTTTTCAACATTGCTGTAGTACAGTTAGTCAGAGACAGGGCCTTGCTAAGTGCTTCAGAATTACTCTCACGTTCACTTATCCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||| || ||||| || |  || ||||| ||||| || ||||    ||| || ||    ||||||||  ||||   || ||||||| ||||||||   | |  ||| | || ||||| | ||||||    || |  |  || |||||||||||||| | ||||||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|695315320|gb|KM822038.1|</Hit_id>
+  <Hit_def>Lassa virus strain LASV246-NIG-2010 segment L Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>KM822038</Hit_accession>
+  <Hit_len>7257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.74769e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3755</Hsp_hit-from>
+      <Hsp_hit-to>3939</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGA--ATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAAGACAAAGAAAATTTTAGTCTACCAGTGTCAGGACCAGTTGAATTATAAGATTGAGGTGATTC--CTGACTGTAAAAACACAGGTTTTTCAACATTGCTGTAGTACAGTTAGTTAAAGACAAGGCCTTACTAAGTGCTTCAGAATTACTCTCACGTTCACTTATCCTAACATCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||| || ||||| || |  || ||||| ||||| |||||||    ||| || ||    ||||| ||  ||||   || ||||||| ||||||||   | |  ||| | || ||||| |||||||     ||||  |  || |||||||||||||| | ||||||||||||  |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|695314001|gb|KM821870.1|</Hit_id>
+  <Hit_def>Lassa virus strain G2723-SLE-2012 segment L Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>KM821870</Hit_accession>
+  <Hit_len>7215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.74769e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>3741</Hsp_hit-from>
+      <Hsp_hit-to>3934</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTT</Hsp_qseq>
+      <Hsp_hseq>TGTTCTTTGTATGATAAAGAAAATTTGAGCCTCCCTGTGTCAGGTCCCACTGAGTTATACGACTGTGGTGACTCTTGACTATAAAAACACAAGTTCTTCAACATTGCTGTGGTGCAGTTAGTCAGTGATAGAGCTTTACTAAGTGCCTCTGAGTTACTCTCTCTCTCACTAATCCTCGCATCATCAGAAAGTTT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||| || | |||||| || ||||| || ||  |    || || ||    |||||||| |    ||| ||||||||||| ||||   | |  ||  |||| ||||| |  || ||   |||||  |  ||||| || ||||||||||| ||||| ||||| ||||| ||  | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1529970077|gb|MK117930.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate LASV/H.sapiens-wt/NGA/2018/IRR_099 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>MK117930</Hit_accession>
+  <Hit_len>7258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3757</Hsp_hit-from>
+      <Hsp_hit-to>3942</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTTAGCCTACCGGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACATAGATTCTTTAACATTGCTGTGGTACAATTGGTTAGAGATAAAGCTTTGCTAAGTGCCTCAGAATTACTCTCCCGTTCACTTATCCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  |||||||| ||||| |||||||    |||||| ||    |||||||| |    ||| ||||| |  || || |   | |  ||  | || || || | ||| |    ||| |  |  ||||||||||||||||| | ||||||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1525820484|dbj|LC387489.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus Nig16-14 Z, L genes for Z protein, polymerase, complete cds, segment L</Hit_def>
+  <Hit_accession>LC387489</Hit_accession>
+  <Hit_len>7169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3714</Hsp_hit-from>
+      <Hsp_hit-to>3899</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTTAGCCTACCGGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACATAGATTCTTTAACATTGCTGTGGTACAATTGGTTAGAGATAAAGCTTTGCTAAGTGCCTCAGAATTACTCTCCCGTTCACTTATCCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  |||||||| ||||| |||||||    |||||| ||    |||||||| |    ||| ||||| |  || || |   | |  ||  | || || || | ||| |    ||| |  |  ||||||||||||||||| | ||||||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1525820472|dbj|LC387485.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus Nig16-11 Z, L genes for Z protein, polymerase, complete cds, segment L</Hit_def>
+  <Hit_accession>LC387485</Hit_accession>
+  <Hit_len>7153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3691</Hsp_hit-from>
+      <Hsp_hit-to>3876</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTTAGCCTACCGGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACATAGATTCTTTAACATTGCTGTGGTACAATTGGTTAGAGATAAAGCTTTGCTAAGTGCCTCAGAATTACTCTCCCGTTCACTTATCCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  |||||||| ||||| |||||||    |||||| ||    |||||||| |    ||| ||||| |  || || |   | |  ||  | || || || | ||| |    ||| |  |  ||||||||||||||||| | ||||||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1493629967|gb|MH887933.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate H.sapiens-wt/NGA/2018/LASV0195-EBONYI-2018 Z protein (Z) gene, partial cds; and polymerase (L) gene, complete cds</Hit_def>
+  <Hit_accession>MH887933</Hit_accession>
+  <Hit_len>7115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3620</Hsp_hit-from>
+      <Hsp_hit-to>3805</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTTAGCCTACCGGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACATAGATTCTTTAACATTGCTGTGGTACAATTGGTTAGAGATAAAGCTTTGCTAAGTGCCTCAGAATTACTCTCCCGTTCACTTATCCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  |||||||| ||||| |||||||    |||||| ||    |||||||| |    ||| ||||| |  || || |   | |  ||  | || || || | ||| |    ||| |  |  ||||||||||||||||| | ||||||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1493629929|gb|MH887920.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate H.sapiens-wt/NGA/2018/LASV0126-EBONYI-2018 Z protein (Z) gene, partial cds; and polymerase (L) gene, complete cds</Hit_def>
+  <Hit_accession>MH887920</Hit_accession>
+  <Hit_len>7050</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3664</Hsp_hit-from>
+      <Hsp_hit-to>3849</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTTAGCCTACCGGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACATAGATTCTTTAACATTGCTGTGGTACAATTGGTTAAAGATAAAGCTTTGCTAAGTGCCTCAGAATTACTCTCCCGTTCACTTATTCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  |||||||| ||||| |||||||    |||||| ||    |||||||| |    ||| ||||| |  || || |   | |  ||  | || || || ||||| |    ||| |  |  ||||||||||||||||| | ||||||||| ||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1435922174|gb|MF784451.1|</Hit_id>
+  <Hit_def>Lymphocytic choriomeningitis mammarenavirus strain K80 RNA-dependent RNA polymerase gene, partial cds</Hit_def>
+  <Hit_accession>MF784451</Hit_accession>
+  <Hit_len>3416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>813</Hsp_hit-from>
+      <Hsp_hit-to>1136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAG-TGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTTAGTCTGGAATTGTGCTTGAATCTACCAGAGTAGTGATTCACATTTAGTTGCAATAAGATGGTCTTAAAGCATTTGAACCAATCTCCCTCTTCATAAAACTT</Hsp_qseq>
+      <Hsp_hseq>CTGCTCCTTATAAGATAATGCAAACTTCAATCTCCCCGAGTCAGGACCAACTGAAGTATATGATGTTGGTGACTCTTCTGAGTAAAAGCATAGGTTCTTCAGGGCTGCAC-TCATGCACTTTGTCAGCGACAGAGCCTTACTCAAAGACTCAGAGTTGCTTTCTCTTTCACTAATTCTTACATCCTCTTCCAATTTATCCCAGTCAAATTTAAAATTCAACCCCTGTCTTTGCATATGTCTATATTTTCCTGAGTACGCATTTGCATTCATCTGCAACAGTATCATCTTCATGCATGAAAACCAATCACACTCTAAAAAAAACTT</Hsp_hseq>
+      <Hsp_midline>||| ||||| || ||||| |  ||||  |  || |||| ||| |||||| |   | | || || || |||||||| ||||| || || || | ||| ||||| | || || | ||||| || || |  |||||    |||| || || |||||| || || ||||||||||| || ||  |||| || |  | ||| |   | ||||| ||| |||| |  |   ||||     | ||  |  || | || |||||   |||  |||| |  ||||| |  ||  |||| | ||||   |||||||| | ||||  | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1360839801|gb|MH053583.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate Lassa virus/H.sapiens-wt/NGA/2016/ISTH_0565 segment L polymerase (L) gene, partial cds</Hit_def>
+  <Hit_accession>MH053583</Hit_accession>
+  <Hit_len>6564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3218</Hsp_hit-from>
+      <Hsp_hit-to>3403</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTTAGTCTACCAGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACACAGATTCTTTAACATTGCTGTGGTACAATTGGTTAGAGACAAAGCTTTGCTAAGTGCCTCAGAATTACTCTCCCGTTCACTTATTCTGACATCGTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  || ||||| ||||| |||||||    |||||| ||    |||||||| |    ||| |||||||  || || |   | |  ||  | || || || | |||||    ||| |  |  ||||||||||||||||| | ||||||||| ||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|316308862|gb|GU481069.1|</Hit_id>
+  <Hit_def>Lassa virus strain Nig08-04 Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>GU481069</Hit_accession>
+  <Hit_len>7230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3744</Hsp_hit-from>
+      <Hsp_hit-to>3962</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC-GTAGAGTTTTTTGTAATCAAACTTATAATTAAG</Hsp_qseq>
+      <Hsp_hseq>CTGTTCCTTGTAGGATAAAGAGAATTTCAGTCTACCGGTGTCAGGACCAGTTGAATTGTAAGACTGAGGTGACTCTTGACTATAAAAACACAGATTCTTTAACATTGCTGTGGTACAATTGGTTAGAGATAAAGCTTTGCTAAGTGCCTCAGAATTACTCTCCCGTTCACTTATTCTGACATCGTCAGCCAATTTTCCTGT-GTCAAACTTAAAATTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||| |  || ||||| ||||| |||||||    |||||| ||    |||||||| |    ||| |||||||  || || |   | |  ||  | || || || | ||| |    ||| |  |  ||||||||||||||||| | ||||||||| ||| |||| || |   | |||  |||  ||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|695313942|gb|KM821860.1|</Hit_id>
+  <Hit_def>Lassa virus strain G2557-SLE-2012 segment L Z protein (Z) and polymerase (L) genes, complete cds</Hit_def>
+  <Hit_accession>KM821860</Hit_accession>
+  <Hit_len>7300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.8649</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>6.10003e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>3758</Hsp_hit-from>
+      <Hsp_hit-to>3980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>CTGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTCGTAGAGTTTTTTGTAATCAAACTTATAATTAAGTCTT</Hsp_qseq>
+      <Hsp_hseq>CTGTTCTTTGTATGATAAAGAAAATTTGAGCCTCCCTGTGTCAGGTCCCACTGAGTCATACGACTGTGGTGACTCTTGACTATAAAAACACAAGTTCTTCAACATTGCTGTGGTGCAGTTAGTCAGTGATAGAGCTTTACTAAGTGCCTCTGAGTTACTCTCTCTCTCACTAATCCTCGCATCATCAGAAAGTTTACCCATGTCAAACTTAAAGTTGAGACTT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||| || | |||||| || ||||| || ||  |    |  || ||    |||||||| |    ||| ||||||||||| ||||   | |  ||  |||| ||||| |  || ||   |||||  |  ||||| || ||||||||||| ||||| ||||| ||||| ||  | |||||       ||||||||| | || || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1483576061|gb|MG812640.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus isolate 806593 segment L Z protein and L protein genes, complete cds</Hit_def>
+  <Hit_accession>MG812640</Hit_accession>
+  <Hit_len>7274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>2.12912e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3762</Hsp_hit-from>
+      <Hsp_hit-to>3946</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAAGATAGAGAAAACTTGAGCCTGCCCGTGTCAGGGCCAATTGAATTGTAAGACTGGGGTGACTCTTGACTATAAAAACACAGATTTTTTAGCATTGCTGTAGTGCAGTTAGTTAGGGATAAAGCTTTGCTGAGTGCTTCGGAGTTACTCTCTCGCTCACTTATTCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||| ||| |||| |||||| |||||||| || |||     |||||| ||   ||||||||| |    ||| |||||||  ||||| ||  | |  ||| |||| ||||| |  || |    ||| |  |  || || || ||||||||||  |||||||| ||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1020216053|gb|KU978812.1|</Hit_id>
+  <Hit_def>Lassa mammarenavirus NIGERIA IKEJI segment L hypothetical protein (AVI30_00003) and RNA-directed RNA polymerase L (L) genes, complete cds</Hit_def>
+  <Hit_accession>KU978812</Hit_accession>
+  <Hit_len>7283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>2.12912e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3773</Hsp_hit-from>
+      <Hsp_hit-to>3957</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>TGTTCCTTGTATGATAAAGAGAACTGGAGCCTACCCGTGTCTGGACCAGCACCATTGTAGGAGGTGGGTGACTCATCTGAATAGAAACACAAGTTTTTCAGAGTGGACGTAATGCATTTAGTGAAAGACAGCAGTTTACACATAGCCTCAGAATTACTCTCTCTTTCACTTATCCTGGCATCTTC</Hsp_qseq>
+      <Hsp_hseq>TGTTCCTTGTAAGATAGAGAAAACTTGAGCCTGCCCGTGTCAGGGCCAATTGAATTGTAAGACTGGGGTGACTCTTGACTATAAAAACACAGATTTTTTAGCATTGCTGTAGTGCAGTTAGTTAGGGATAAAGCTTTGCTGAGTGCTTCGGAGTTACTCTCTCGCTCACTTATTCTGACATCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||| ||| |||| |||||| |||||||| || |||     |||||| ||   ||||||||| |    ||| |||||||  ||||| ||  | |  ||| |||| ||||| |  || |    ||| |  |  || || || ||||||||||  |||||||| ||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51378549</Statistics_db-num>
+      <Statistics_db-len>205464789809</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

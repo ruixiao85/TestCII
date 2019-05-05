@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_67789</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>282</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_67789</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>282</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|685042176|emb|LN590701.1|</Hit_id>
+  <Hit_def>Cyprinus carpio genome assembly common carp genome, scaffold: LG1, chromosome: 1</Hit_def>
+  <Hit_accession>LN590701</Hit_accession>
+  <Hit_len>15297981</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.556</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>7.6067e-31</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>11452826</Hsp_hit-from>
+      <Hsp_hit-to>11452711</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>CCTACGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG-TGTGTGTGTG-TGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CCTACGTAG--TCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGATAAGTGAGTGATTTTTTTTTAAGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  ||| ||| | | | | |  |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|685042178|emb|LN590703.1|</Hit_id>
+  <Hit_def>Cyprinus carpio genome assembly common carp genome, scaffold: LG6, chromosome: 6</Hit_def>
+  <Hit_accession>LN590703</Hit_accession>
+  <Hit_len>19716050</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.783</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.67259e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>7382044</Hsp_hit-from>
+      <Hsp_hit-to>7381954</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>CGTTCCTACGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>CGTACCTACGTAGTCTCGTATATGTATAATAGTATATATATATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||| | ||| |    || | | | | |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1220469780|gb|CP020794.1|</Hit_id>
+  <Hit_def>Oryzias latipes strain HNI chromosome 16</Hit_def>
+  <Hit_accession>CP020794</Hit_accession>
+  <Hit_len>30693862</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.3059</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.04296e-06</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>5401306</Hsp_hit-from>
+      <Hsp_hit-to>5401393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>TCCTACGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCCTACGTAGTTCAGTAACTGTGTGTGTGTGTGTGTGTGTCTGTGTGTGCACAAGCGCGTGTGTGTGCATGTGTGAACGTGCGCGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||   ||||||||||||||||||||| ||||||||     | | |||||||||  ||||||   ||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1220479420|gb|CP020636.1|</Hit_id>
+  <Hit_def>Oryzias latipes strain HSOK chromosome 16</Hit_def>
+  <Hit_accession>CP020636</Hit_accession>
+  <Hit_len>33737389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.2891</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.00105828</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>6372815</Hsp_hit-from>
+      <Hsp_hit-to>6372904</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>TCCTACGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG------TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCCTACGTAGTTCAGTAATTGTGTGTGTGCGTGTATGTGTGTCTGTGTGTGCACACCCGCGTGTGTGTGCATGTGTGAACGTGCGCGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||   |||||||||| |||| ||||||| ||||||||       | |||||||||  ||||||   ||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1220465071|gb|CP020680.1|</Hit_id>
+  <Hit_def>Oryzias latipes strain Hd-rR chromosome 16 sequence</Hit_def>
+  <Hit_accession>CP020680</Hit_accession>
+  <Hit_len>32958677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.548204</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>5676459</Hsp_hit-from>
+      <Hsp_hit-to>5676538</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TCCTACGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCCTACGTAGTTCAGTAATTGTGCGTGTGTGTCTGTGTGTGCACAAGCGCGTGTGTGTGCATGTGTGAACGTGCGCGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||   |||| |||||||| ||||||||     | | |||||||||  ||||||   ||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1056742927|tpe|HF933222.1|</Hit_id>
+  <Hit_def>TPA_asm: Oryzias latipes strain Hd-rR, complete genome assembly, chromosome 16</Hit_def>
+  <Hit_accession>HF933222</Hit_accession>
+  <Hit_len>30014384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.548204</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1606446</Hsp_hit-from>
+      <Hsp_hit-to>1606525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TCCTACGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCCTACGTAGTTCAGTAATTGTGCGTGTGTGTCTGTGTGTGCACAAGCGCGTGTGTGTGCATGTGTGAACGTGCGCGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||   |||| |||||||| ||||||||     | | |||||||||  ||||||   ||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1536093444|ref|XM_027380804.1|</Hit_id>
+  <Hit_def>PREDICTED: Penaeus vannamei legumain-like (LOC113827868), mRNA</Hit_def>
+  <Hit_accession>XM_027380804</Hit_accession>
+  <Hit_len>1758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>6.67849</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>1568</Hsp_hit-from>
+      <Hsp_hit-to>1602</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>CGTTCCTACGTAGTCTCGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>CGTTCCTAC---GTCT-GTGTGTGTGGGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||| ||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51454210</Statistics_db-num>
+      <Statistics_db-len>205464789809</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

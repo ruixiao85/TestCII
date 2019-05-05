@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_47013</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>257</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_47013</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>257</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1402105760|gb|MH478421.1|</Hit_id>
+  <Hit_def>Uncultured gamma proteobacterium clone 2_8_A7 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH478421</Hit_accession>
+  <Hit_len>802</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1354638451|gb|MF106204.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. strain AF-4 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF106204</Hit_accession>
+  <Hit_len>1443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1253240292|gb|KY101524.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. enrichment culture clone B_MA_13 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KY101524</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|768965053|gb|KP152613.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. HM-4 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KP152613</Hit_accession>
+  <Hit_len>1406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>13</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|913150098|gb|KR085813.1|</Hit_id>
+  <Hit_def>Prolinoborus fasciculus strain IHBB 9208 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KR085813</Hit_accession>
+  <Hit_len>1506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|662722631|gb|KJ717910.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone ZZ-2 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ717910</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|817380219|gb|KP296603.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. CSeB0_21 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KP296603</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|729772056|gb|KM281500.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain 79 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>KM281500</Hit_accession>
+  <Hit_len>1392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>34</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|576238328|gb|KF927482.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone MD56 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF927482</Hit_accession>
+  <Hit_len>800</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|575426575|gb|KF817788.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AB-185 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817788</Hit_accession>
+  <Hit_len>1398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>17</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|575426561|gb|KF817774.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AR-170 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817774</Hit_accession>
+  <Hit_len>1414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|575426550|gb|KF817763.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AR-155 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817763</Hit_accession>
+  <Hit_len>1403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>17</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|575426527|gb|KF817740.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain TB-128 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817740</Hit_accession>
+  <Hit_len>1404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|575426475|gb|KF817688.1|</Hit_id>
+  <Hit_def>Prolinoborus fasciculus strain AM-76 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817688</Hit_accession>
+  <Hit_len>1406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>20</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|575426471|gb|KF817684.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AM-72 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817684</Hit_accession>
+  <Hit_len>1410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>19</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|575426468|gb|KF817681.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AM-69 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817681</Hit_accession>
+  <Hit_len>1407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>17</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|575426463|gb|KF817676.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AM-64 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817676</Hit_accession>
+  <Hit_len>1402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>17</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|575426461|gb|KF817674.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AM-62 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817674</Hit_accession>
+  <Hit_len>1412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>18</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|575426458|gb|KF817671.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AG-59 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817671</Hit_accession>
+  <Hit_len>1395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>19</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|575426454|gb|KF817667.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AG-54 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817667</Hit_accession>
+  <Hit_len>1335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>18</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|575426438|gb|KF817651.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AG-37 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817651</Hit_accession>
+  <Hit_len>1394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>19</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|575426426|gb|KF817639.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AL-24 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817639</Hit_accession>
+  <Hit_len>1405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>18</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|575426425|gb|KF817638.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AL-23 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817638</Hit_accession>
+  <Hit_len>1397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|575426419|gb|KF817632.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AL-17 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817632</Hit_accession>
+  <Hit_len>1403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>19</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|575426413|gb|KF817626.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain AL-11 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF817626</Hit_accession>
+  <Hit_len>1411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>24</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|501412813|gb|KC816555.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. GY-11 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KC816555</Hit_accession>
+  <Hit_len>1405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>20</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|501412811|gb|KC816553.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain GY-24 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KC816553</Hit_accession>
+  <Hit_len>1409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|501412809|gb|KC816551.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. GY-1 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KC816551</Hit_accession>
+  <Hit_len>1408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|444438229|gb|KC139416.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain Hb-15 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KC139416</Hit_accession>
+  <Hit_len>1423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|384407032|gb|JQ360629.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JQ360629</Hit_accession>
+  <Hit_len>1451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|380850791|gb|JQ247325.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. &apos;LG BR 12343&apos; 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JQ247325</Hit_accession>
+  <Hit_len>1477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|380009218|gb|JQ429456.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. 1PNM-1 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JQ429456</Hit_accession>
+  <Hit_len>927</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>14</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|380003084|gb|JQ407774.1|</Hit_id>
+  <Hit_def>Acinetobacter lwoffii strain BVC54 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JQ407774</Hit_accession>
+  <Hit_len>1390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>16</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|379047049|gb|JN882042.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone A24 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JN882042</Hit_accession>
+  <Hit_len>1499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|375161322|gb|JQ638586.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. CIP 64.7 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JQ638586</Hit_accession>
+  <Hit_len>1494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|347990688|gb|JN228325.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. DR2A1(2011) 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JN228325</Hit_accession>
+  <Hit_len>1460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|341867957|gb|JN199456.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone 85850050416 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JN199456</Hit_accession>
+  <Hit_len>790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|322224518|gb|JF239113.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone ncd2783b10c1 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JF239113</Hit_accession>
+  <Hit_len>1360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|321805145|gb|JF032340.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone ncd325g08c1 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JF032340</Hit_accession>
+  <Hit_len>1359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|313758975|gb|GU170983.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone controlVDRday3596 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>GU170983</Hit_accession>
+  <Hit_len>867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|313758944|gb|GU170952.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone controlVDRday3538 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>GU170952</Hit_accession>
+  <Hit_len>870</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|307749611|gb|GU016251.1|</Hit_id>
+  <Hit_def>Uncultured gamma proteobacterium clone LHCHWD351 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>GU016251</Hit_accession>
+  <Hit_len>749</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>14</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|307125271|gb|HM558765.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone BIGO748 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HM558765</Hit_accession>
+  <Hit_len>1370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|307125208|gb|HM558702.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone BIGO634 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HM558702</Hit_accession>
+  <Hit_len>1370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>46</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|307125115|gb|HM558609.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone BIGO451 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HM558609</Hit_accession>
+  <Hit_len>1371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>46</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|306999759|gb|HM218190.1|</Hit_id>
+  <Hit_def>Acinetobacter sp. NM37-1 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HM218190</Hit_accession>
+  <Hit_len>1461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|297350263|gb|HM075426.1|</Hit_id>
+  <Hit_def>Uncultured Pseudomonadales bacterium clone DH24_35 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HM075426</Hit_accession>
+  <Hit_len>668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>9</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|297018203|gb|HM324608.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone ncd430h10c1 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HM324608</Hit_accession>
+  <Hit_len>1359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|297018136|gb|HM324541.1|</Hit_id>
+  <Hit_def>Uncultured bacterium clone ncd429e09c1 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HM324541</Hit_accession>
+  <Hit_len>1359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.176</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.7027e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|396948201|gb|JQ973774.1|</Hit_id>
+  <Hit_def>Acinetobacter radioresistens strain TAN118 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JQ973774</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.07431e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCC-ACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCCTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGAGACCT</Hsp_qseq>
+      <Hsp_hseq>AGTCCCAGTGTGGCGGATCATCCTCTCAGACCCGCTACAGATCGTCGCCTTGGTAGGCCTTTACCCCACCAACTAGCTAATCCGACTTAGGCTCATCTATTAGCGCAAGGCCCGAAGGTCCCCTGCTTTCTCCCGTAGGACGTATGCGGTATTAGCATCCCTTTCGAGATGTTGTCCCCCACTAATAGGCAGATTCNTAAGCATTACTCACCCGTCCGCCGCTAGGTAAAGTAGCAAGCTACCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51378549</Statistics_db-num>
+      <Statistics_db-len>205464789809</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

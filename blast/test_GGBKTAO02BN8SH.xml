@@ -1,0 +1,892 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_150949</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>329</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_150949</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>329</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1537016566|emb|LR131932.1|</Hit_id>
+  <Hit_def>Cottoperca gobio genome assembly, chromosome: 24</Hit_def>
+  <Hit_accession>LR131932</Hit_accession>
+  <Hit_len>22441820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.345</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>6.9377e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1733762</Hsp_hit-from>
+      <Hsp_hit-to>1733640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>GCCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GCCGTTTCC---AGTCT-GTGATTCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||   ||||| |||  | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|685042167|emb|LN590692.1|</Hit_id>
+  <Hit_def>Cyprinus carpio genome assembly common carp genome, scaffold: LG33, chromosome: 33</Hit_def>
+  <Hit_accession>LN590692</Hit_accession>
+  <Hit_len>24142229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.25437e-41</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>9486024</Hsp_hit-from>
+      <Hsp_hit-to>9485868</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>GCCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT-GTGTGT-GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GCCGTTTCCAGTATTATAG-GTAT-TATTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGAGAGAGAGTAGAGAGTAGTTAGTGTGTGTGT-TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| | | | || | | |  ||||||||||||||||||||||||||||||||||||||| | | | || | | || ||  |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1558335665|gb|CP027267.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus chromosome Lm6</Hit_def>
+  <Hit_accession>CP027267</Hit_accession>
+  <Hit_len>27060119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>2.76536e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3517792</Hsp_hit-from>
+      <Hsp_hit-to>3517733</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>CCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CCAGTAGTCTCCTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.34166e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>8870508</Hsp_hit-from>
+      <Hsp_hit-to>8870450</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGTGTTAACTTTGTGTGTGTGTGTATGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |    | ||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1559969744|gb|CP032604.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus linkage group 7 sequence</Hit_def>
+  <Hit_accession>CP032604</Hit_accession>
+  <Hit_len>27713553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.177</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>9.65207e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>18345552</Hsp_hit-from>
+      <Hsp_hit-to>18345629</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GTTTCCAGTAG----GTGTGAATGTTTGTGTGTGTCTGTGTGTGTGTGTCTGTGTCTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||    |||||  ||| ||||||||| ||||||||||||| ||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1559969743|gb|CP032603.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus linkage group 6 sequence</Hit_def>
+  <Hit_accession>CP032603</Hit_accession>
+  <Hit_len>27759045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.373</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>3.3689e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>7245941</Hsp_hit-from>
+      <Hsp_hit-to>7246073</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>CCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGT-GTGT-GTG---TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CCAGTAGTCTCCAGTGTGTGTGTGTGTGTGTGTGAGAGTAGTGTAGTGGCATCTACATCCATCACAGCGTTTCTGTCTCTGGTAATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||||||||||||||||||||| | || |||| |||   | |   |   |    | || | ||| | ||    ||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.34166e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>2266088</Hsp_hit-from>
+      <Hsp_hit-to>2266146</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGTGTTAACTTTGTGTGTGTGTGTATGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |    | ||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1537968281|ref|XR_003478923.1|</Hit_id>
+  <Hit_def>PREDICTED: Cricetulus griseus uncharacterized LOC113831583 (LOC113831583), ncRNA</Hit_def>
+  <Hit_accession>XR_003478923</Hit_accession>
+  <Hit_len>675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>4.10417e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>CCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CCGTTTCCAGT------GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||      |||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|21104143|emb|AL672013.9|</Hit_id>
+  <Hit_def>Mouse DNA sequence from clone RP23-32G8 on chromosome 11, complete sequence</Hit_def>
+  <Hit_accession>AL672013</Hit_accession>
+  <Hit_len>207905</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.3564</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>1.74514e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>39893</Hsp_hit-from>
+      <Hsp_hit-to>39990</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>GTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GTTTCCAGTAGTCTAGAATCACTGGGTGTTTATAAAAGATTTAGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGCGTGCGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |  |   || |||| | |    |  |  ||||||||||||||||||||||||||||||||||||||||||||||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1591613432|emb|LR535850.1|</Hit_id>
+  <Hit_def>Mastacembelus armatus genome assembly, chromosome: 18</Hit_def>
+  <Hit_accession>LR535850</Hit_accession>
+  <Hit_len>19675934</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.6514</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>6.09112e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>6532521</Hsp_hit-from>
+      <Hsp_hit-to>6532451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGT-TAGGATGTG-GTATGTATGTATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| | |  |||| || ||| ||| ||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|685042197|emb|LN590722.1|</Hit_id>
+  <Hit_def>Cyprinus carpio genome assembly common carp genome ,scaffold 000000022</Hit_def>
+  <Hit_accession>LN590722</Hit_accession>
+  <Hit_len>1102781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.34166e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>1084223</Hsp_hit-from>
+      <Hsp_hit-to>1084160</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGTTGAGGATGAAACTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||   |  ||    |||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1353793168|gb|CP027078.1|</Hit_id>
+  <Hit_def>Bos mutus isolate yakQH1 chromosome 10</Hit_def>
+  <Hit_accession>CP027078</Hit_accession>
+  <Hit_len>33842169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.34166e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>3025511</Hsp_hit-from>
+      <Hsp_hit-to>3025577</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGTCATTTGTGTGTGAGT-TGTGTGTGAGTGTGTGTGAGTGTGTGAGAGTGTGTGTGAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||   |||||||| || |||||||| ||||||||| ||||||| | ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1558336058|gb|CP027281.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus chromosome Lm20</Hit_def>
+  <Hit_accession>CP027281</Hit_accession>
+  <Hit_len>21152183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.68285e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>15110491</Hsp_hit-from>
+      <Hsp_hit-to>15110438</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GTTTCCAGTAG----GTGTGAATGTTTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||    |||||  ||| ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1395236166|gb|CP026252.1|</Hit_id>
+  <Hit_def>Scophthalmus maximus chromosome 10</Hit_def>
+  <Hit_accession>CP026252</Hit_accession>
+  <Hit_len>25207873</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.68285e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>21989940</Hsp_hit-from>
+      <Hsp_hit-to>21989996</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GTTTCCAGTAGTCTCGT---GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GTTTCCAGTAG-CTTGTACAGCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| || ||   | ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1104468769|emb|LT634572.1|</Hit_id>
+  <Hit_def>Sus scrofa genome assembly, chromosome: Y</Hit_def>
+  <Hit_accession>LT634572</Hit_accession>
+  <Hit_len>43547828</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.68285e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>886110</Hsp_hit-from>
+      <Hsp_hit-to>886159</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>CCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CCATTTCCAGTAGTCTTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTCTG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||| |||||||||||| ||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|257650140|emb|CU633488.10|</Hit_id>
+  <Hit_def>Pig DNA sequence from clone CH242-123G14 on chromosome X, complete sequence</Hit_def>
+  <Hit_accession>CU633488</Hit_accession>
+  <Hit_len>176678</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.68285e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>25199</Hsp_hit-from>
+      <Hsp_hit-to>25248</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>CCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CCATTTCCAGTAGTCTTGTGTGTGTGTGTCTGTGTGTGTGTGTGTGTCTG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||| |||||||||||| ||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1537016563|emb|LR131929.1|</Hit_id>
+  <Hit_def>Cottoperca gobio genome assembly, chromosome: 21</Hit_def>
+  <Hit_accession>LR131929</Hit_accession>
+  <Hit_len>24104793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9126</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.9912e-07</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>2205540</Hsp_hit-from>
+      <Hsp_hit-to>2205481</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>TCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCCAGTAGTCTGTTGACAGTGTATGTGTGTGTGTGTGTGTGTGTGGGTGTGTGTATATGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||   |||| |||||||||||||||||||||| |||||||| | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|187466490|emb|CU459021.15|</Hit_id>
+  <Hit_def>Zebrafish DNA sequence from clone CH73-46J18 in linkage group 10, complete sequence</Hit_def>
+  <Hit_accession>CU459021</Hit_accession>
+  <Hit_len>128131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.46679e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>94257</Hsp_hit-from>
+      <Hsp_hit-to>94302</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GCCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>GCCGTTTCCAGCA--TTAGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |   | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1558335766|gb|CP027270.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus chromosome Lm9</Hit_def>
+  <Hit_accession>CP027270</Hit_accession>
+  <Hit_len>20127546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.9552e-05</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>11281418</Hsp_hit-from>
+      <Hsp_hit-to>11281470</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>TTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTCCAGTAGTCTCTTAAGGAACTGTGTGTTTGTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  |    ||||||| |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1559969731|gb|CP032591.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus linkage group 17 sequence</Hit_def>
+  <Hit_accession>CP032591</Hit_accession>
+  <Hit_len>22597543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.000360017</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>12521712</Hsp_hit-from>
+      <Hsp_hit-to>12521762</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>TTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTCCAGTAGTCTCTTAAGGAACTGTGTGTTTGTGTGTGTGTGTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  |    ||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|850494956|gb|CP011910.1|</Hit_id>
+  <Hit_def>Ovis canadensis canadensis isolate 43U chromosome 25 sequence</Hit_def>
+  <Hit_accession>CP011910</Hit_accession>
+  <Hit_len>45421385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.00125658</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>1496785</Hsp_hit-from>
+      <Hsp_hit-to>1496830</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>GTTTCCAGTAG-CT-GTGTGTGTGTGTGTGTGGTCRTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| || |||||||||||||||||    ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1591613394|emb|LR535814.1|</Hit_id>
+  <Hit_def>Denticeps clupeoides genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR535814</Hit_accession>
+  <Hit_len>39020476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.4857</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.00438591</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>37975491</Hsp_hit-from>
+      <Hsp_hit-to>37975528</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>CCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CCGTTTCCAGT------GTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||      |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1560905427|gb|CP032302.1|</Hit_id>
+  <Hit_def>Anopheles stephensi strain Indian chromosome 3L</Hit_def>
+  <Hit_accession>CP032302</Hit_accession>
+  <Hit_len>37522138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.4857</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.00438591</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>3656730</Hsp_hit-from>
+      <Hsp_hit-to>3656792</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>CCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>CCGTTTCCAGT------GTGTGTGTGTGTGTGTGTGTGCGTGTGCGCATATGTCTGTATTAGTGTTTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||      ||||||||||||||||||||| ||||| |  | ||| ||| |  |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1484375953|ref|NG_021242.2|</Hit_id>
+  <Hit_def>Homo sapiens semaphorin 3E (SEMA3E), RefSeqGene on chromosome 7</Hit_def>
+  <Hit_accession>NG_021242</Hit_accession>
+  <Hit_len>292926</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.0153083</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>108449</Hsp_hit-from>
+      <Hsp_hit-to>108394</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGTATACTGTATGGATGTATATGTATGTGTGTGTGTGTTTATGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |  ||| ||  ||| | ||| ||||||||||||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|118142779|gb|AC188767.3|</Hit_id>
+  <Hit_def>Pan troglodytes BAC clone CH251-689I7 from chromosome 7, complete sequence</Hit_def>
+  <Hit_accession>AC188767</Hit_accession>
+  <Hit_len>196533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.0153083</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>144750</Hsp_hit-from>
+      <Hsp_hit-to>144805</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGTATACTGTATGGATGTATATGTATGTGTGTGTGTGTTTATGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |  ||| ||  ||| | ||| ||||||||||||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|116014462|gb|AC188435.3|</Hit_id>
+  <Hit_def>Pan troglodytes BAC clone CH251-682L9 from chromosome 7, complete sequence</Hit_def>
+  <Hit_accession>AC188435</Hit_accession>
+  <Hit_len>213474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.0153083</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>29880</Hsp_hit-from>
+      <Hsp_hit-to>29935</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGTATACTGTATGGATGTATATGTATGTGTGTGTGTGTTTATGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |  ||| ||  ||| | ||| ||||||||||||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|4001549|gb|AC006204.1|</Hit_id>
+  <Hit_def>Homo sapiens PAC clone RP5-1102B4 from 7, complete sequence</Hit_def>
+  <Hit_accession>AC006204</Hit_accession>
+  <Hit_len>144563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.0153083</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>92927</Hsp_hit-from>
+      <Hsp_hit-to>92872</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCAGTAGTATACTGTATGGATGTATATGTATGTGTGTGTGTGTTTATGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |  ||| ||  ||| | ||| ||||||||||||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|968106632|ref|XM_002052802.2|</Hit_id>
+  <Hit_def>Drosophila virilis uncharacterized protein (Dvir\GJ19725), mRNA</Hit_def>
+  <Hit_accession>XM_002052802</Hit_accession>
+  <Hit_len>4669</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.0756</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>0.186493</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>4416</Hsp_hit-from>
+      <Hsp_hit-to>4348</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>CCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>CCGTTTCCAGTGGTCCGGAGGATGAGGGGGATTTCGGGTGTGTGTGTATGTGTGTGTGCTTGTGTGTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||  | |  || | | |  |  | |||||||||| ||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1591613431|emb|LR535849.1|</Hit_id>
+  <Hit_def>Mastacembelus armatus genome assembly, chromosome: 17</Hit_def>
+  <Hit_accession>LR535849</Hit_accession>
+  <Hit_len>24949636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.650926</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>7487046</Hsp_hit-from>
+      <Hsp_hit-to>7487087</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>CCGTTTCCAGTAGTCTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTG</Hsp_qseq>
+      <Hsp_hseq>CCGTTTCCAGT----TTGTGTGTGTGTGGGTGTGTGTTTGTGTTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||    | ||||||||||| |||||||| ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|908415938|ref|XM_013213755.1|</Hit_id>
+  <Hit_def>PREDICTED: Biomphalaria glabrata alpha-actinin, sarcomeric-like (LOC106056859), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_013213755</Hit_accession>
+  <Hit_len>6550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.650926</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>2970</Hsp_hit-from>
+      <Hsp_hit-to>2941</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TCCAGTAGTCTCGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCCAGTAGTCTGGTGTGTGTGTGTGTATGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|908415936|ref|XM_013213754.1|</Hit_id>
+  <Hit_def>PREDICTED: Biomphalaria glabrata alpha-actinin, sarcomeric-like (LOC106056859), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_013213754</Hit_accession>
+  <Hit_len>6550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.650926</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>2970</Hsp_hit-from>
+      <Hsp_hit-to>2941</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TCCAGTAGTCTCGTGTGTGTGTGTGTGTGT</Hsp_qseq>
+      <Hsp_hseq>TCCAGTAGTCTGGTGTGTGTGTGTGTATGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51378549</Statistics_db-num>
+      <Statistics_db-len>204700810597</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

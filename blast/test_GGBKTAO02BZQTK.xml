@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_150665</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>91</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_150665</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>91</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|167533850|ref|XM_001748552.1|</Hit_id>
+  <Hit_def>Monosiga brevicollis MX1 predicted protein MONBRDRAFT_28152 mRNA, complete cds</Hit_def>
+  <Hit_accession>XM_001748552</Hit_accession>
+  <Hit_len>933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.129</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.83162e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCACGTAGGTCT----CCACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCACCTGCTGCTGCAGCCACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACAC</Hsp_hseq>
+      <Hsp_midline>||||||||||| |    ||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1559969727|gb|CP032587.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus linkage group 13 sequence</Hit_def>
+  <Hit_accession>CP032587</Hit_accession>
+  <Hit_len>24455397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>4.66787e-26</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>11523149</Hsp_hit-from>
+      <Hsp_hit-to>11523234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>CACGTAGGTCTCCACACACAC----ACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA</Hsp_qseq>
+      <Hsp_hseq>CACGTAGGTCTCGATACACACCTGAACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1558335693|gb|CP027268.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus chromosome Lm7</Hit_def>
+  <Hit_accession>CP027268</Hit_accession>
+  <Hit_len>17749143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>2.75895e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>16176199</Hsp_hit-from>
+      <Hsp_hit-to>16176268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CACGTAGGTCTCCACACACACACACACACACACACACACACACACACACACACACACACACACACACACA</Hsp_qseq>
+      <Hsp_hseq>CACGTAGGTCTCGATACACACCTGAAAACACACACACACACACACACACACACACACACACACACACACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||    | |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1539176531|emb|LR131987.1|</Hit_id>
+  <Hit_def>Gouania willdenowi genome assembly, chromosome: 15</Hit_def>
+  <Hit_accession>LR131987</Hit_accession>
+  <Hit_len>37027010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.7497</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>4.09465e-14</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1346952</Hsp_hit-from>
+      <Hsp_hit-to>1346882</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CACGTAGGTCTCCACACACACACACACACACACACACACACACACACACACACACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>CACGTAGGTCTCTATACACACCTGGAAACACACACACACACACACACACACACACGCACACGCACACACAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||    | |||||||||||||||||||||||||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|685042457|emb|LN590982.1|</Hit_id>
+  <Hit_def>Cyprinus carpio genome assembly common carp genome ,scaffold 000001033</Hit_def>
+  <Hit_accession>LN590982</Hit_accession>
+  <Hit_len>663259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>2.12108e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>292310</Hsp_hit-from>
+      <Hsp_hit-to>292361</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>CGTTCCACGTAGGTCTCCACACACACACACACACACACACACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>CGTTCCACGTAG------ACACACACACACACACACACACACACACACACACACACAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||      ||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1331035474|emb|LT972183.1|</Hit_id>
+  <Hit_def>Larimichthys crocea genome assembly, chromosome: XVII</Hit_def>
+  <Hit_accession>LT972183</Hit_accession>
+  <Hit_len>26353782</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.3059</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.67199e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>371778</Hsp_hit-from>
+      <Hsp_hit-to>371825</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCACGTAGGTCTCCACACACACACACACACACACACACACACACACACACA</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCA----------CACACACACACACACACACACACACACACACACACACA</Hsp_hseq>
+      <Hsp_midline>||||||||||          ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1331035486|emb|LT972195.1|</Hit_id>
+  <Hit_def>Larimichthys crocea genome assembly, chromosome: VI</Hit_def>
+  <Hit_accession>LT972195</Hit_accession>
+  <Hit_len>24582047</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.8958</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.98658e-05</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>20380097</Hsp_hit-from>
+      <Hsp_hit-to>20380058</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TTCCACGTAGGTCTCCACACACACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>TTCCACGTAGGTTTGCACACACACACACACGCACACACAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1331035479|emb|LT972188.1|</Hit_id>
+  <Hit_def>Larimichthys crocea genome assembly, chromosome: XXI</Hit_def>
+  <Hit_accession>LT972188</Hit_accession>
+  <Hit_len>21059074</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.000242015</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>8218441</Hsp_hit-from>
+      <Hsp_hit-to>8218484</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>CCACGTAGGTCT--CCACACACACACACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>CCACGTAGGTCTTACCACCTAGACACACACACACACACACACAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||||  | ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1558335665|gb|CP027267.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus chromosome Lm6</Hit_def>
+  <Hit_accession>CP027267</Hit_accession>
+  <Hit_len>27060119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.00294835</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>15975766</Hsp_hit-from>
+      <Hsp_hit-to>15975707</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>GTTCCACGTAGGT--CTCCACACACACACACACACACACACACACACACACACACACACA</Hsp_qseq>
+      <Hsp_hseq>GTTCCACGTAGATACCTGAACACGGACAAACAAACACACACACACACAGATGCACACACA</Hsp_hseq>
+      <Hsp_midline>||||||||||| |  ||  ||||  ||| ||| ||||||||||||||| |  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1477745963|ref|XM_026440357.1|</Hit_id>
+  <Hit_def>PREDICTED: Apis mellifera uncharacterized LOC724189 (LOC724189), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_026440357</Hit_accession>
+  <Hit_len>2694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.0102908</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>1213</Hsp_hit-from>
+      <Hsp_hit-to>1253</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>CCGTTCCACGTAGGTCTCCACACACACACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>CCGTTCCACGTAGAT----ACACACACACACACGTACACACACAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |    ||||||||||||||  ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1477745961|ref|XM_026440356.1|</Hit_id>
+  <Hit_def>PREDICTED: Apis mellifera uncharacterized LOC724189 (LOC724189), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_026440356</Hit_accession>
+  <Hit_len>2685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.0102908</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>1204</Hsp_hit-from>
+      <Hsp_hit-to>1244</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>CCGTTCCACGTAGGTCTCCACACACACACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>CCGTTCCACGTAGAT----ACACACACACACACGTACACACACAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |    ||||||||||||||  ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1559969743|gb|CP032603.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus linkage group 6 sequence</Hit_def>
+  <Hit_accession>CP032603</Hit_accession>
+  <Hit_len>27759045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.0756</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>0.0359183</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>17810238</Hsp_hit-from>
+      <Hsp_hit-to>17810181</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GTTCCACGTAGGT--CTCCACACACACACACACACACACACACACACACACACACACA</Hsp_qseq>
+      <Hsp_hseq>GTTCCACGTAGATACCTGAACACGGACAAACAAACACACACACACAGATGCACACACA</Hsp_hseq>
+      <Hsp_midline>||||||||||| |  ||  ||||  ||| ||| ||||||||||||| |  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|78190214|gb|AC154236.2|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP24-160E14 from chromosome 17, complete sequence</Hit_def>
+  <Hit_accession>AC154236</Hit_accession>
+  <Hit_len>162390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.0359183</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>42072</Hsp_hit-from>
+      <Hsp_hit-to>42160</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>TTCCACGTAGGTCTCCACACACACACACACACACACACACACACACACACACACACACACACACACA-CACACACA------CACACACACAC</Hsp_qseq>
+      <Hsp_hseq>TTCCACGTAGG----CACACATGCGCGAGCACGCACACACAGGCACACTCACACATGCTCACATATACCACACACATGTGTGCACACACACAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||    ||||||  | |   ||| ||||||||  ||||| ||||||  | |||| | | ||||||||      |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1537016565|emb|LR131931.1|</Hit_id>
+  <Hit_def>Cottoperca gobio genome assembly, chromosome: 23</Hit_def>
+  <Hit_accession>LR131931</Hit_accession>
+  <Hit_len>15932363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.437574</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>6430540</Hsp_hit-from>
+      <Hsp_hit-to>6430502</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>TCCACGTAGGTCTCCACACACACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>TCCACGTAGGTTAACATTCAGACACACACACACACACAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||   ||  || ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1395225569|gb|CP026244.1|</Hit_id>
+  <Hit_def>Scophthalmus maximus chromosome 2</Hit_def>
+  <Hit_accession>CP026244</Hit_accession>
+  <Hit_len>23836697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>1.52728</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>4213967</Hsp_hit-from>
+      <Hsp_hit-to>4214000</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>CGCCGTTCCACGTAGGTCTCCACACACACACACACACACACA</Hsp_qseq>
+      <Hsp_hseq>CGCCGTTCCACG--------CACACACACACACACACACACA</Hsp_hseq>
+      <Hsp_midline>||||||||||||        ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|505779972|ref|XM_004603377.1|</Hit_id>
+  <Hit_def>PREDICTED: Sorex araneus peptidyl arginine deiminase, type I (PADI1), mRNA</Hit_def>
+  <Hit_accession>XM_004603377</Hit_accession>
+  <Hit_len>1995</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>1.52728</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>TCCACGTAGGTCTCCACACACACACACACACAC</Hsp_qseq>
+      <Hsp_hseq>TCCACGTAGGTCTCCACTCCCAC-CACACACAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| | ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1244127479|ref|XM_022519702.1|</Hit_id>
+  <Hit_def>PREDICTED: Enhydra lutris kenyoni twinfilin actin binding protein 1 (LOC111157951), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022519702</Hit_accession>
+  <Hit_len>3094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.33074</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>2625</Hsp_hit-from>
+      <Hsp_hit-to>2663</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>GCCGTTCCACGTAGGTCTCCACACACACACACACACACACA</Hsp_qseq>
+      <Hsp_hseq>GCCGTTCCACG--GGTGCCCACATAGACACACATACACACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||  |||  ||||| | ||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1244127477|ref|XM_022519701.1|</Hit_id>
+  <Hit_def>PREDICTED: Enhydra lutris kenyoni twinfilin actin binding protein 1 (LOC111157951), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022519701</Hit_accession>
+  <Hit_len>3118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>5.33074</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>2649</Hsp_hit-from>
+      <Hsp_hit-to>2687</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>GCCGTTCCACGTAGGTCTCCACACACACACACACACACACA</Hsp_qseq>
+      <Hsp_hseq>GCCGTTCCACG--GGTGCCCACATAGACACACATACACACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||  |||  ||||| | ||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51454210</Statistics_db-num>
+      <Statistics_db-len>204700810597</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

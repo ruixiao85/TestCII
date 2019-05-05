@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_24489</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>83</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_24489</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>83</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1241190816|gb|KY680997.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate NAT056 haplogroup D1f mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KY680997</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.047</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.31639e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AGCTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1241190802|gb|KY680996.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate NAT120 haplogroup D1f mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KY680996</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.047</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.31639e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AGCTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1241190788|gb|KY680995.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate ECU0983 haplogroup D1f mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KY680995</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.047</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.31639e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AGCTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1597475537|gb|MK618711.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup U4a2 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK618711</Hit_accession>
+  <Hit_len>16571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1597475523|gb|MK635102.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup H76 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK635102</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1597475509|gb|MK640234.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup V mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK640234</Hit_accession>
+  <Hit_len>16571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1597475495|gb|MK658837.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup U4a mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK658837</Hit_accession>
+  <Hit_len>16575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1066</Hsp_hit-from>
+      <Hsp_hit-to>986</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1597475481|gb|MK635099.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup U4a2 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK635099</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1597475467|gb|MK633908.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup H2a2a1 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK633908</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1597475453|gb|MK633907.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup V2a1a mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK633907</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1597475439|gb|MK618713.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup U4c2a mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK618713</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1597475425|gb|MK660272.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup M8 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK660272</Hit_accession>
+  <Hit_len>16571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1597475411|gb|MK618712.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup K1a26 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK618712</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1595113480|gb|MH973719.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate IV-10 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH973719</Hit_accession>
+  <Hit_len>16560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1595113466|gb|MH973718.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate V-24 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH973718</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1593478873|gb|MH844548.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate SLK078 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH844548</Hit_accession>
+  <Hit_len>16572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1593478845|gb|MH844546.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate SLK073 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH844546</Hit_accession>
+  <Hit_len>16571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1587355033|gb|MK591009.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup I2a3 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK591009</Hit_accession>
+  <Hit_len>16572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1063</Hsp_hit-from>
+      <Hsp_hit-to>983</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1587355019|gb|MK580638.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup T2f1a1 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK580638</Hit_accession>
+  <Hit_len>16560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1587355005|gb|MK558000.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup H-G16129A mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK558000</Hit_accession>
+  <Hit_len>16571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1587354977|gb|MK603973.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup T2b mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK603973</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1587354963|gb|MK570297.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup I1a1e mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK570297</Hit_accession>
+  <Hit_len>16572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1063</Hsp_hit-from>
+      <Hsp_hit-to>983</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1587354949|gb|MK559905.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup H104a mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK559905</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1587354935|gb|MK570296.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup H7 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK570296</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1587354921|gb|MK590045.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup B5b1c mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK590045</Hit_accession>
+  <Hit_len>16561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1587354907|gb|MK603974.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup T2b mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK603974</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1587354893|gb|MK534741.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup U4a3a mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK534741</Hit_accession>
+  <Hit_len>16579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1070</Hsp_hit-from>
+      <Hsp_hit-to>990</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1587354879|gb|MK570295.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup H35 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK570295</Hit_accession>
+  <Hit_len>16572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1587354865|gb|MK570294.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup T2n mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK570294</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1587354851|gb|MK590033.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup H6a1a4 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK590033</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1587088612|gb|MK043987.2|</Hit_id>
+  <Hit_def>Homo sapiens isolate mt11 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK043987</Hit_accession>
+  <Hit_len>16568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1587088608|gb|MK043986.2|</Hit_id>
+  <Hit_def>Homo sapiens isolate mt4 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK043986</Hit_accession>
+  <Hit_len>16568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1573835237|gb|KX350100.2|</Hit_id>
+  <Hit_def>Homo sapiens isolate SH-SY5Y mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KX350100</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1566847292|gb|MH298074.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CAP-C58-9 haplogroup N1a3a mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH298074</Hit_accession>
+  <Hit_len>16562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1056</Hsp_hit-from>
+      <Hsp_hit-to>976</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1566847278|gb|MH298073.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CAP-C58-6 haplogroup T2b mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH298073</Hit_accession>
+  <Hit_len>16568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1566847264|gb|MH298072.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CAP-C58-5 haplogroup U6a1a1 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH298072</Hit_accession>
+  <Hit_len>16566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1057</Hsp_hit-from>
+      <Hsp_hit-to>977</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1566847250|gb|MH298071.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CAP-C58-3 haplogroup J1c15 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH298071</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1566847236|gb|MH298070.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CAP-C58-2 haplogroup U4d2 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH298070</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1566847222|gb|MH298069.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CAP-C58-1 haplogroup H11a1 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MH298069</Hit_accession>
+  <Hit_len>16568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1566350267|gb|MK475661.1|</Hit_id>
+  <Hit_def>Homo sapiens haplogroup H1C mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK475661</Hit_accession>
+  <Hit_len>16570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1563836091|gb|MK321345.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Pv517 haplogroup K2b1 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321345</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1563836077|gb|MK321344.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Pxevi haplogroup J2a1 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321344</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1563836063|gb|MK321343.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Rebolal haplogroup K2b1 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321343</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1563836049|gb|MK321342.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Eiros2 haplogroup U5b3 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321342</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1563836035|gb|MK321341.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Eiros1 haplogroup V mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321341</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1563836021|gb|MK321340.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Val146 haplogroup H1bm mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321340</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1563836007|gb|MK321339.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Val145 haplogroup H1bm mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321339</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1563835993|gb|MK321338.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Val107 haplogroup H1bm mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321338</Hit_accession>
+  <Hit_len>16567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1058</Hsp_hit-from>
+      <Hsp_hit-to>978</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1563835979|gb|MK321337.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Val3.99 haplogroup H3 mitochondrion, partial genome</Hit_def>
+  <Hit_accession>MK321337</Hit_accession>
+  <Hit_len>16552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1057</Hsp_hit-from>
+      <Hsp_hit-to>977</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1563835965|gb|MK321336.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate Val05 haplogroup H1ay mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MK321336</Hit_accession>
+  <Hit_len>16569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.69493e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1059</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTACTAGCTCAGGTGAG</Hsp_qseq>
+      <Hsp_hseq>AGCTATTGTGTGTTCAGATATGTTAAAGCCACTTTCGTAGTCTATTTTGTGTCAACTGGAGTTTTTTAC-AACTCAGGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51378549</Statistics_db-num>
+      <Statistics_db-len>204700810597</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

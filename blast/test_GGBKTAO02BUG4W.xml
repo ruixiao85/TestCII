@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_54835</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>166</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_54835</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>166</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3483481|gb|AF086136.1|HUMZA89C06</Hit_id>
+  <Hit_def>Homo sapiens full length insert cDNA clone ZA89C06</Hit_def>
+  <Hit_accession>AF086136</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.266</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>8.87689e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>CAGCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>CAGCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1538071161|ref|XR_003488597.1|</Hit_id>
+  <Hit_def>PREDICTED: Cricetulus griseus 28S ribosomal RNA (LOC113838089), rRNA</Hit_def>
+  <Hit_accession>XR_003488597</Hit_accession>
+  <Hit_len>4677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4324</Hsp_hit-from>
+      <Hsp_hit-to>4182</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1538071117|ref|XR_003488590.1|</Hit_id>
+  <Hit_def>PREDICTED: Cricetulus griseus 28S ribosomal RNA (LOC113838061), rRNA</Hit_def>
+  <Hit_accession>XR_003488590</Hit_accession>
+  <Hit_len>4759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4405</Hsp_hit-from>
+      <Hsp_hit-to>4263</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1567490994|ref|XR_003587982.1|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries 28S ribosomal RNA (LOC114112704), rRNA</Hit_def>
+  <Hit_accession>XR_003587982</Hit_accession>
+  <Hit_len>4897</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4551</Hsp_hit-from>
+      <Hsp_hit-to>4409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1567490962|ref|XR_003587966.1|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries 28S ribosomal RNA (LOC114112677), rRNA</Hit_def>
+  <Hit_accession>XR_003587966</Hit_accession>
+  <Hit_len>4895</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4548</Hsp_hit-from>
+      <Hsp_hit-to>4406</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1567490926|ref|XR_003587946.1|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries 28S ribosomal RNA (LOC114112646), rRNA</Hit_def>
+  <Hit_accession>XR_003587946</Hit_accession>
+  <Hit_len>4898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4551</Hsp_hit-from>
+      <Hsp_hit-to>4409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1567490769|ref|XR_003587871.1|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries 28S ribosomal RNA (LOC114112490), rRNA</Hit_def>
+  <Hit_accession>XR_003587871</Hit_accession>
+  <Hit_len>4915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4568</Hsp_hit-from>
+      <Hsp_hit-to>4426</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1543744811|ref|XR_003523540.1|</Hit_id>
+  <Hit_def>PREDICTED: Zalophus californianus 28S ribosomal RNA (LOC113933923), rRNA</Hit_def>
+  <Hit_accession>XR_003523540</Hit_accession>
+  <Hit_len>4649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4315</Hsp_hit-from>
+      <Hsp_hit-to>4173</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1542929137|ref|XR_003508810.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos indicus x Bos taurus 28S ribosomal RNA (LOC113884061), rRNA</Hit_def>
+  <Hit_accession>XR_003508810</Hit_accession>
+  <Hit_len>4814</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4473</Hsp_hit-from>
+      <Hsp_hit-to>4331</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1542860042|ref|XR_003510171.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos indicus x Bos taurus 28S ribosomal RNA (LOC113889197), rRNA</Hit_def>
+  <Hit_accession>XR_003510171</Hit_accession>
+  <Hit_len>4816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4475</Hsp_hit-from>
+      <Hsp_hit-to>4333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1542860031|ref|XR_003510168.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos indicus x Bos taurus 28S ribosomal RNA (LOC113889187), rRNA</Hit_def>
+  <Hit_accession>XR_003510168</Hit_accession>
+  <Hit_len>4815</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4474</Hsp_hit-from>
+      <Hsp_hit-to>4332</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1021673814|gb|KX061891.1|</Hit_id>
+  <Hit_def>Callithrix jacchus precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061891</Hit_accession>
+  <Hit_len>39533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12166</Hsp_hit-from>
+      <Hsp_hit-to>12024</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1021673813|gb|KX061890.1|</Hit_id>
+  <Hit_def>Macaca mulatta precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061890</Hit_accession>
+  <Hit_len>41735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12319</Hsp_hit-from>
+      <Hsp_hit-to>12177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1021673812|gb|KX061889.1|</Hit_id>
+  <Hit_def>Nomascus leucogenys precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061889</Hit_accession>
+  <Hit_len>42909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>11613</Hsp_hit-from>
+      <Hsp_hit-to>11471</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1021673811|gb|KX061888.1|</Hit_id>
+  <Hit_def>Pongo abelii precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061888</Hit_accession>
+  <Hit_len>40901</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12549</Hsp_hit-from>
+      <Hsp_hit-to>12407</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1021673810|gb|KX061887.1|</Hit_id>
+  <Hit_def>Gorilla gorilla precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061887</Hit_accession>
+  <Hit_len>37526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12227</Hsp_hit-from>
+      <Hsp_hit-to>12085</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1021673809|gb|KX061886.1|</Hit_id>
+  <Hit_def>Pan troglodytes precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061886</Hit_accession>
+  <Hit_len>41773</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12571</Hsp_hit-from>
+      <Hsp_hit-to>12429</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1021673808|gb|KX061885.1|</Hit_id>
+  <Hit_def>Callithrix jacchus clone CH259-137E18 precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061885</Hit_accession>
+  <Hit_len>40154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12211</Hsp_hit-from>
+      <Hsp_hit-to>12069</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1021673807|gb|KX061884.1|</Hit_id>
+  <Hit_def>Callithrix jacchus clone CH259-119I6 precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061884</Hit_accession>
+  <Hit_len>39774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12184</Hsp_hit-from>
+      <Hsp_hit-to>12042</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1021673806|gb|KX061883.1|</Hit_id>
+  <Hit_def>Macaca mulatta clone CH250-701 precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061883</Hit_accession>
+  <Hit_len>41768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12330</Hsp_hit-from>
+      <Hsp_hit-to>12188</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1021673805|gb|KX061882.1|</Hit_id>
+  <Hit_def>Macaca mulatta clone CH250-46L14 precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061882</Hit_accession>
+  <Hit_len>41771</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12334</Hsp_hit-from>
+      <Hsp_hit-to>12192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1021673804|gb|KX061881.1|</Hit_id>
+  <Hit_def>Macaca mulatta clone CH250-26D15 precursor 48S ribosomal RNA, 18S ribosomal RNA, 5.8S ribosomal RNA, and 28S ribosomal RNA genes, complete sequence</Hit_def>
+  <Hit_accession>KX061881</Hit_accession>
+  <Hit_len>41767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12330</Hsp_hit-from>
+      <Hsp_hit-to>12188</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1418318377|ref|XR_003129431.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo 28S ribosomal RNA (LOC112648997), rRNA</Hit_def>
+  <Hit_accession>XR_003129431</Hit_accession>
+  <Hit_len>4757</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4423</Hsp_hit-from>
+      <Hsp_hit-to>4281</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1351343322|ref|XR_002913601.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii 28S ribosomal RNA (LOC112131561), rRNA</Hit_def>
+  <Hit_accession>XR_002913601</Hit_accession>
+  <Hit_len>5030</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4697</Hsp_hit-from>
+      <Hsp_hit-to>4555</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1333542637|ref|XR_002805831.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus caballus 28S ribosomal RNA (LOC111771933), rRNA</Hit_def>
+  <Hit_accession>XR_002805831</Hit_accession>
+  <Hit_len>4865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4524</Hsp_hit-from>
+      <Hsp_hit-to>4382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1333542611|ref|XR_002805825.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus caballus 28S ribosomal RNA (LOC111771923), rRNA</Hit_def>
+  <Hit_accession>XR_002805825</Hit_accession>
+  <Hit_len>4903</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4562</Hsp_hit-from>
+      <Hsp_hit-to>4420</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1331406737|ref|XR_002790568.1|</Hit_id>
+  <Hit_def>PREDICTED: Cavia porcellus 28S ribosomal RNA (LOC111756064), rRNA</Hit_def>
+  <Hit_accession>XR_002790568</Hit_accession>
+  <Hit_len>5156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4809</Hsp_hit-from>
+      <Hsp_hit-to>4667</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1304875095|ref|XR_002740182.1|</Hit_id>
+  <Hit_def>PREDICTED: Felis catus Eukaryotic 28S ribosomal RNA (LOC111559207), rRNA</Hit_def>
+  <Hit_accession>XR_002740182</Hit_accession>
+  <Hit_len>3645</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>3632</Hsp_hit-from>
+      <Hsp_hit-to>3490</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1238280724|gb|KY962518.1|</Hit_id>
+  <Hit_def>Homo sapiens external transcribed spacer 18S ribosomal RNA gene, internal transcribed spacer 1, 5.8S ribosomal RNA gene, internal transcribed spacer 2, 28S ribosomal RNA gene, and external transcribed spacer, complete sequence</Hit_def>
+  <Hit_accession>KY962518</Hit_accession>
+  <Hit_len>44838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12622</Hsp_hit-from>
+      <Hsp_hit-to>12480</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1212788597|gb|MF164269.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH1 genomic sequence</Hit_def>
+  <Hit_accession>MF164269</Hit_accession>
+  <Hit_len>162331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>90689</Hsp_hit-from>
+      <Hsp_hit-to>90547</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>135526</Hsp_hit-from>
+      <Hsp_hit-to>135384</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>196.952</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>2.54552e-46</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>68387</Hsp_hit-from>
+      <Hsp_hit-to>68252</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>CTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATG</Hsp_qseq>
+      <Hsp_hseq>CTGGGCGGGATTCTGATTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCACCCCATTGGTTCCTCAGTCAAGCACATACACCAAATGTGTGAAACTTTGATTCCTCTCATACTCAGCAGGATTACCATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| ||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||| |||||||||||||||||||| |||| ||  | |||||||| |||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1212788596|gb|MF164268.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH12 genomic sequence</Hit_def>
+  <Hit_accession>MF164268</Hit_accession>
+  <Hit_len>44249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>10560</Hsp_hit-from>
+      <Hsp_hit-to>10418</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1212788594|gb|MF164267.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH8 genomic sequence</Hit_def>
+  <Hit_accession>MF164267</Hit_accession>
+  <Hit_len>44299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>10538</Hsp_hit-from>
+      <Hsp_hit-to>10396</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1212788592|gb|MF164266.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH5 genomic sequence</Hit_def>
+  <Hit_accession>MF164266</Hit_accession>
+  <Hit_len>44352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>10540</Hsp_hit-from>
+      <Hsp_hit-to>10398</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1212788588|gb|MF164264.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH4 genomic sequence</Hit_def>
+  <Hit_accession>MF164264</Hit_accession>
+  <Hit_len>61044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>27788</Hsp_hit-from>
+      <Hsp_hit-to>27646</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1212788582|gb|MF164261.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH14 genomic sequence</Hit_def>
+  <Hit_accession>MF164261</Hit_accession>
+  <Hit_len>89130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>10696</Hsp_hit-from>
+      <Hsp_hit-to>10554</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1212788581|gb|MF164260.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH15 genomic sequence</Hit_def>
+  <Hit_accession>MF164260</Hit_accession>
+  <Hit_len>44509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>10809</Hsp_hit-from>
+      <Hsp_hit-to>10667</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1212788579|gb|MF164259.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH18 genomic sequence</Hit_def>
+  <Hit_accession>MF164259</Hit_accession>
+  <Hit_len>44525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>10698</Hsp_hit-from>
+      <Hsp_hit-to>10556</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1212788578|gb|MF164258.1|</Hit_id>
+  <Hit_def>Homo sapiens clone BAC JH11 genomic sequence</Hit_def>
+  <Hit_accession>MF164258</Hit_accession>
+  <Hit_len>84611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>10559</Hsp_hit-from>
+      <Hsp_hit-to>10417</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>50917</Hsp_hit-from>
+      <Hsp_hit-to>50775</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1158980075|ref|NR_146154.1|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 28S ribosomal N3 (RNA28SN3), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_146154</Hit_accession>
+  <Hit_len>5055</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4705</Hsp_hit-from>
+      <Hsp_hit-to>4563</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1158980064|ref|NR_146144.1|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 45S pre-ribosomal N2 (RNA45SN2), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_146144</Hit_accession>
+  <Hit_len>13315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12605</Hsp_hit-from>
+      <Hsp_hit-to>12463</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1158980062|ref|NR_146151.1|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 45S pre-ribosomal N3 (RNA45SN3), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_146151</Hit_accession>
+  <Hit_len>13309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12596</Hsp_hit-from>
+      <Hsp_hit-to>12454</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1158980060|ref|NR_146148.1|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 28S ribosomal N2 (RNA28SN2), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_146148</Hit_accession>
+  <Hit_len>5054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4705</Hsp_hit-from>
+      <Hsp_hit-to>4563</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1154886896|ref|NR_146117.1|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 45S pre-ribosomal N4 (RNA45SN4), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_146117</Hit_accession>
+  <Hit_len>13373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12658</Hsp_hit-from>
+      <Hsp_hit-to>12516</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1154886866|ref|NR_146118.1|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 28S ribosomal N4 (RNA28SN4), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_146118</Hit_accession>
+  <Hit_len>5077</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4727</Hsp_hit-from>
+      <Hsp_hit-to>4585</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1154491921|ref|NR_046235.3|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 45S pre-ribosomal N5 (RNA45SN5), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_046235</Hit_accession>
+  <Hit_len>13357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12644</Hsp_hit-from>
+      <Hsp_hit-to>12502</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1154491914|ref|NR_003287.4|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 28S ribosomal N5 (RNA28SN5), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_003287</Hit_accession>
+  <Hit_len>5070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4720</Hsp_hit-from>
+      <Hsp_hit-to>4578</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1147390507|ref|XR_002213921.1|</Hit_id>
+  <Hit_def>PREDICTED: Castor canadensis collagen alpha-1(I) chain-like (LOC109703052), misc_RNA</Hit_def>
+  <Hit_accession>XR_002213921</Hit_accession>
+  <Hit_len>2107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>966</Hsp_hit-from>
+      <Hsp_hit-to>1108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1142736646|ref|NR_145822.1|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 28S ribosomal N1 (RNA28SN1), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_145822</Hit_accession>
+  <Hit_len>5066</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>4717</Hsp_hit-from>
+      <Hsp_hit-to>4575</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1142736641|ref|NR_145819.1|</Hit_id>
+  <Hit_def>Homo sapiens RNA, 45S pre-ribosomal N1 (RNA45SN1), ribosomal RNA</Hit_def>
+  <Hit_accession>NR_145819</Hit_accession>
+  <Hit_len>13351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12641</Hsp_hit-from>
+      <Hsp_hit-to>12499</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1032033218|gb|KX121614.1|</Hit_id>
+  <Hit_def>Mus musculus clone contig 6 chromocenter region genomic sequence</Hit_def>
+  <Hit_accession>KX121614</Hit_accession>
+  <Hit_len>1340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.66</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.08143e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGACAAC</Hsp_qseq>
+      <Hsp_hseq>GCCTGGGCGGGATTCTGACTTAGAGGCGTTCAGTCATAATCCCACAGATGGTAGCTTCGCCCCATTGGCTCCTCAGCCAAGCACATACACCAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>51454210</Statistics_db-num>
+      <Statistics_db-len>205464789809</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
