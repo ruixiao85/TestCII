@@ -1,3 +1,4 @@
+import argparse
 import os
 import timeit
 import datetime
@@ -24,10 +25,19 @@ def find_print_trim(_rec,_seq,_seq_name,_writer):
 	return False,rec # target sequence not found
 
 if __name__=='__main__':
-	fna,qual,fastq="test.fna","test.qual","test.fastq"
-	qc2,qc3,unit=100,20,'bp'
-	primer=Seq("CGCCGTTTCCCAGTAGGTCTC")
-	adaptor=Seq("ACTGAGTGGGAGGCAAGGCACACAGGGGATAGG")
+	parser=argparse.ArgumentParser()
+	parser.add_argument('-f','--file',dest='file',action='store',default='test',help='~.fna, ~.qual, ~.fastq')
+	parser.add_argument('-l','--length',dest='length',action='store',default=100,help='keep reads with length greater than this value')
+	parser.add_argument('-q','--quality',dest='quality',action='store',default=20,help='keep reads with average quality score greater than this value')
+	parser.add_argument('-u','--unit',dest='unit',action='store',default='bp',help='basic unit')
+	parser.add_argument('-p','--primer',dest='primer',action='store',default='CGCCGTTTCCCAGTAGGTCTC',help='primer sequence')
+	parser.add_argument('-a','--adaptor',dest='adaptor',action='store',default='ACTGAGTGGGAGGCAAGGCACACAGGGGATAGG',help='adaptor sequence')
+	args=parser.parse_args()
+
+	fna,qual,fastq=args.file+".fna",args.file+".qual",args.file+".fastq"
+	qc2,qc3,unit=args.length,args.quality,args.unit
+	primer=Seq(args.primer)
+	adaptor=Seq(args.adaptor)
 	blast_file_folder,blast_file_prefix="blast","test"
 	if not os.path.exists(blast_file_folder): os.mkdir(blast_file_folder)
 	blast_result_file="1.blast_m8.txt"
@@ -88,7 +98,7 @@ if __name__=='__main__':
 	fft.close()
 	fpa.close()
 	print(f'Processed in {timeit.timeit()-now:.5f} seconds.')
-
+	print()
 	print('The program should generate the following output:')
 	print(f'1. Total number of matching reads: {c1}.')
 	print(f'2. Number of reads greater than {qc2} {unit}: {c2}')
@@ -96,7 +106,7 @@ if __name__=='__main__':
 	print(f'4. Number of reads with primer sequences: {c4}')
 	print(f'5. Number of reads with adapter sequences: {c5}')
 	print(f'6. Number of reads with both primer and adapter sequences: {c6}')
-
+	print()
 	print('In addition, your program needs to generate the following files:')
 	print(f'1. Total number of reads blasted and written into the m8 format file "{blast_result_file}"": {cb} ({cb/c1:.1%}).')
 	print(f'2. Fasta file containing reads greater than {qc2} {unit}, average read quality scores greater than {qc3}, primers and adaptors trimmed (assuming and/&& condition) "{filter_trim_file}".')
