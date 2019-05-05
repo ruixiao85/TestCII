@@ -133,8 +133,7 @@ The console output (timed for only loading existing blast xml files):
 >     In addition, your program needs to generate the following files:
 >     1. Total number of reads blasted and written into the m8 format file":
 >        [1.blast_m8.txt] completed 135 / 43090 (0.3%) via NCBI qblast.
->     2. Fasta file containing reads greater than 100 bp, average read quality scores greater than 20,
->        primers and adaptors trimmed.
+>     2. Fasta file containing reads greater than 100 bp, average read quality scores greater than 20, primers and adaptors trimmed.
 >        [2.filter_trim.fna] (assuming and/&& condition, and trim all instances of exact match).
 >     3. Tab de-limited text file containing the read identifiers along with the starting and end positions of the primer or adaptor sequences:
 >        [3.primer_adaptor_loc.txt].

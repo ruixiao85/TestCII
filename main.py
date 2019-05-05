@@ -121,8 +121,7 @@ if __name__=='__main__':
    print('In addition, your program needs to generate the following files:')
    print(f'1. Total number of reads blasted and written into the m8 format file":\n'
          f'   [{blast_result_file}] completed {cb} / {c1} ({cb/c1:.1%}) via NCBI qblast.')
-   print(f'2. Fasta file containing reads greater than {qc2} {unit}, average read quality scores greater than {qc3},\n'
-         f'   primers and adaptors trimmed.\n'
+   print(f'2. Fasta file containing reads greater than {qc2} {unit}, average read quality scores greater than {qc3}, primers and adaptors trimmed.\n'
          f'   [{filter_trim_file}] (assuming and/&& condition, and trim all instances of exact match).')
    print(f'3. Tab de-limited text file containing the read identifiers along with the starting and end positions of the primer or adaptor sequences:\n'
          f'   [{primer_adaptor_file}].')
