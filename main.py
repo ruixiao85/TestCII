@@ -26,7 +26,7 @@ def find_print_trim(_rec,_seq,_seq_name,_writer):
 
 if __name__=='__main__':
 	parser=argparse.ArgumentParser()
-	parser.add_argument('-f','--file',dest='file',action='store',default='test',help='~.fna, ~.qual, ~.fastq')
+	parser.add_argument('-f','--filename',dest='filename',action='store',default='test',help='~.fna, ~.qual, ~.fastq')
 	parser.add_argument('-l','--length',dest='length',action='store',default=100,help='keep reads with length greater than this value')
 	parser.add_argument('-q','--quality',dest='quality',action='store',default=20,help='keep reads with average quality score greater than this value')
 	parser.add_argument('-u','--unit',dest='unit',action='store',default='bp',help='basic unit')
@@ -34,12 +34,13 @@ if __name__=='__main__':
 	parser.add_argument('-a','--adaptor',dest='adaptor',action='store',default='ACTGAGTGGGAGGCAAGGCACACAGGGGATAGG',help='adaptor sequence')
 	args=parser.parse_args()
 
-	fna,qual,fastq=args.file+".fna",args.file+".qual",args.file+".fastq"
+	basefile=args.filename
+	fna,qual,fastq=basefile+".fna",basefile+".qual",basefile+".fastq"
 	qc2,qc3,unit=args.length,args.quality,args.unit
 	primer=Seq(args.primer)
 	adaptor=Seq(args.adaptor)
-	blast_file_folder,blast_file_prefix="blast","test"
-	if not os.path.exists(blast_file_folder): os.mkdir(blast_file_folder)
+	blast_folder="blast"
+	if not os.path.exists(blast_folder): os.mkdir(blast_folder)
 	blast_result_file="1.blast_m8.txt"
 	filter_trim_file="2.filter_trim.fna"
 	primer_adaptor_file="3.primer_adaptor_loc.txt"
@@ -51,14 +52,14 @@ if __name__=='__main__':
 
 	fq=SeqIO.parse(fastq,"fastq")
 	c1,c2,c3,c4,c5,c6,c7=0,0,0,0,0,0,0
-	cor_len,cor_qual,primer_in,adaptor_in,pos_list=None,None,None,None,None # avoid temporary variables in the loop
-	now=timeit.timeit()
+	cor_len,cor_qual,primer_in,adaptor_in=None,None,None,None # avoid temporary variables in the loop
 	fb,cb=open(blast_result_file,'w'),0
 	fb.write('\t'.join(["query","subject","%id","alignment_length","mismatches","gap_openings",
 		"query_start","query_end","subject_start","subject_end","E_value","bit_score"])+'\n')
 	fft=open(filter_trim_file,'w') # fasta no header needed
 	fpa=open(primer_adaptor_file,'w')
 	fpa.write('\t'.join(["identifier","match","start","end"])+'\n')
+	now=timeit.timeit()
 	for rec in fq:
 		c1+=1 # increment every entry # print(rec.seq)
 		cor_len=len(rec)>qc2
@@ -68,14 +69,13 @@ if __name__=='__main__':
 		if cor_qual: c3+=1 # increment if average quality score met predefined criteria
 		primer_in,rec=find_print_trim(rec,primer,"primer",fpa) # return whether primer found and trimmed sequence
 		adaptor_in,rec=find_print_trim(rec,adaptor,"adaptor",fpa) # return whether adaptor found and trimmed sequence
-		if primer_in:
-			c4+=1
+		if primer_in: c4+=1
 		if adaptor_in: c5+=1
 		if primer_in and adaptor_in: c6+=1
 
 		if cor_len and cor_qual:
 			SeqIO.write(rec,fft,"fasta")
-		blast_file=os.path.join(blast_file_folder,f'{blast_file_prefix}_{rec.name}.xml')
+		blast_file=os.path.join(blast_folder,f'{basefile}_{rec.name}.xml')
 		if not os.path.exists(blast_file): # qblast ncbi for xml format if not found
 			qblast=NCBIWWW.qblast("blastn","nt",rec.seq)
 			with open(blast_file,"w") as file:
