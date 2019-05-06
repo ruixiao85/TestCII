@@ -9,7 +9,6 @@ from Bio.Blast import NCBIWWW,NCBIXML
 from Bio.Seq import Seq
 from Bio.SeqIO.QualityIO import PairedFastaQualIterator
 
-
 def find_print_trim(_rec,_seq,_seq_name,_writer):
    _len=len(_seq)
    _motifs=motifs.create([_seq])  # potentially include _seq.complement(),_seq.reverse_complement()
@@ -55,10 +54,11 @@ if __name__=='__main__':
 
    # merge fna and qual files and write into one fastq file is not found, otherwise directly parse fastq
    if not os.path.exists(fastq):  # pair sequence and quality files into one fastq file, skip if available
+      t0=timeit.default_timer()
       with open(fna) as f_handle,open(qual) as q_handle:
          records=PairedFastaQualIterator(f_handle,q_handle)
          count=SeqIO.write(records,fastq,"fastq")
-      print(f'{count} entries was written to {fastq}.')
+      print(f'{count:,} entries were written to {fastq} in {timeit.default_timer()-t0:.2f} seconds.')
    fq=SeqIO.parse(fastq,"fastq") # once the fastq is generated, this step directly parse the fastq file
 
    # set counters to zeros, initialize filewriters
@@ -70,7 +70,7 @@ if __name__=='__main__':
    fpa=open(primer_adaptor_file,'w')
    fpa.write('\t'.join(["identifier","match","start","end"])+'\n')
 
-   now=timeit.default_timer() # start timer
+   t0=timeit.default_timer() # start timer
    for rec in fq: # loop only once for all console and file outputs to be efficient
       c1+=1  # increment every entry # print(rec.seq)
       cor_len=len(rec)>qc2 # whether has the correct length
@@ -104,19 +104,19 @@ if __name__=='__main__':
                           f'{hsp.expect:.1e}',f'{hsp.bits:.1e}']
                   fb.write("\t".join(fields)+"\n")
          cb+=1  # count of blast file processed
-   print(f'Processed in {timeit.default_timer()-now:.2f} seconds.') # time the loop
+   print(f'All records were processed in {timeit.default_timer()-t0:.2f} seconds.') # time the loop
 
    fb.close()
    fft.close()
    fpa.close()
    print()
    print('The program should generate the following output:')
-   print(f'1. Total number of matching reads: {c1}.')
-   print(f'2. Number of reads greater than {qc2} {unit}: {c2}.')
-   print(f'3. Number of reads with average quality score greater than {qc3}: {c3}.')
-   print(f'4. Number of reads with primer sequences: {c4}.')
-   print(f'5. Number of reads with adapter sequences: {c5}.')
-   print(f'6. Number of reads with both primer and adapter sequences: {c6}.')
+   print(f'1. Total number of matching reads: {c1:,}.')
+   print(f'2. Number of reads greater than {qc2} {unit}: {c2:,}.')
+   print(f'3. Number of reads with average quality score greater than {qc3}: {c3:,}.')
+   print(f'4. Number of reads with primer sequences: {c4:,}.')
+   print(f'5. Number of reads with adapter sequences: {c5:,}.')
+   print(f'6. Number of reads with both primer and adapter sequences: {c6:,}.')
    print()
    print('In addition, your program needs to generate the following files:')
    print(f'1. Total number of reads blasted and written into the m8 format file":\n'

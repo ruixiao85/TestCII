@@ -28,12 +28,12 @@ Please tar and gzip your program along with a README file and email it. Please f
 
 ---
 ## Answer
-Since python was recommended to solve the problem, I searched and found [*biopython*](http://biopython.org/DIST/docs/tutorial/Tutorial.html) to be most suitable for this task.
+Looking through various python packages, I found [*biopython*](http://biopython.org/DIST/docs/tutorial/Tutorial.html) most suitable for this task.
 
-Noticeably, the primer and adaptor sequences and the criteria for filtering reads can be made into arguments and become reusable and adjustable in future tasks.
+Noticeably, the criteria for filtering reads and the primer or adaptor sequences can be made into arguments and become reusable and adjustable for future tasks.
 >     parser=argparse.ArgumentParser()  
->     parser.add_argument('-l','--length',dest='length',action='store',default=100)  
->     parser.add_argument('-q','--quality',dest='quality',action='store',default=20)  
+>     parser.add_argument('-l','--length',dest='length',action='store',default=100,type=int)  
+>     parser.add_argument('-q','--quality',dest='quality',action='store',default=20,type=int)  
 >     parser.add_argument('-p','--primer',dest='primer',action='store',
 >                         default='CGCCGTTTCCCAGTAGGTCTC')  
 >     parser.add_argument('-a','--adaptor',dest='adaptor',action='store',
@@ -41,7 +41,8 @@ Noticeably, the primer and adaptor sequences and the criteria for filtering read
 >     ...  
 >     args=parser.parse_args()
 
-Because combining fasta and quality files are computationally intensive, one-time process by pairing and writting to fastq file would be a good approach for future uses.
+Because combining fasta and quality files are computationally intensive and results will not differ from one run to another,
+ one-time process by pairing and writing to fastq file would be a good approach for any future uses.
 
 *PairedFastaQualIterator* in biopython can combine and write to a fastq file with the following code:
 >     with open(fna) as f_handle, open(qual) as q_handle:  
@@ -66,6 +67,7 @@ Temporary bool type variables, including cor_len, cor_qual, has_primer, and has_
 Here the *find_print_trim()* function takes in SeqRecord, Seq(primer/adaptor), SeqName("primer"/"adaptor"), and FileWriter object.
 It returns whether the SeqOfInterest is found in the SeqRecord and the SeqRecord after trimming the SeqOfInterest.
 Here I made use of motif searching in the biopython package and reverse list of positions for sequence deletion.
+I have written the code to remove all exact match instances and can be further adjusted to the actual use case.
 >     _motifs=motifs.create([_seq])  # potentially include _seq.complement(),_seq.reverse_complement()  
 >     _list=[]  
 >     for pos,seq in _motifs.instances.search(_rec.seq):  
@@ -79,15 +81,16 @@ Here I made use of motif searching in the biopython package and reverse list of 
 With the code block above, it also continuously writes to the *3rd* required file output.
 
 For the *1st* required file, blast result can be retrieved either by query the ncbi database or perform blast on local computer.
-I chose the former solution for this task because it's quicker to set up and the database are curated
-without having to download and maintain the database as I do not run these tasks on a daily basis yet.
+I chose the former solution for this task because it's quicker to set up and the [database](ftp://ftp.ncbi.nlm.nih.gov/blast/db/) are curated
+without having to download and maintain the local database as I do not run these tasks on a daily basis yet.
+If downloaded and run locally, **blastn** command can take in *-outfmt 8* to output blast result in m8 format.
 
 Retrieval of ncbi blast result in default xml format was done with the following code:
 >     qblast=NCBIWWW.qblast("blastn","nt",rec.seq) # perform ncbi qblast, assuming after trimming
 >     with open(blast_file,"w") as file:  # write blast result to local computer  
 >        file.write(qblast.read())
 
-After the default xml files were retrieved, the files are parsed and saved into m8 format and the output can be highly customizable.
+After the blast results in xml format were retrieved, the results are parsed and saved into m8 format and the output can be highly customizable.
 >     for r in NCBIXML.parse(qblast): # iterate records in xml file
 >         for alignment in r.alignments: # iterate alignments in a record
 >             for hsp in alignment.hsps: # iterate high score pairs in a alignment
@@ -121,22 +124,22 @@ The code for final console output is as follows:
 >           f'   [{primer_adaptor_file}].')
 
 The console output (timed for only loading existing blast xml files):
->     Processed in 46.15 seconds.
+>     43,090 entries were written to test.fastq in 6.09 seconds.
+>     All records were processed in 47.38 seconds.
 >     
 >     The program should generate the following output:
->     1. Total number of matching reads: 43090.
->     2. Number of reads greater than 100 bp: 38638.
->     3. Number of reads with average quality score greater than 20: 43056.
->     4. Number of reads with primer sequences: 34078.
+>     1. Total number of matching reads: 43,090.
+>     2. Number of reads greater than 100 bp: 38,638.
+>     3. Number of reads with average quality score greater than 20: 43,056.
+>     4. Number of reads with primer sequences: 34,078.
 >     5. Number of reads with adapter sequences: 0.
 >     6. Number of reads with both primer and adapter sequences: 0.
 >     
 >     In addition, your program needs to generate the following files:
 >     1. Total number of reads blasted and written into the m8 format file":
->        [1.blast_m8.txt] completed 135 / 43090 (0.3%) via NCBI qblast.
+>     [1.blast_m8.txt] assuming running blast with sequences after trimming primer/adaptor   completed 292 / 43090 (0.7%) via NCBI qblast.
 >     2. Fasta file containing reads greater than 100 bp, average read quality scores greater than 20, primers and adaptors trimmed.
->        [2.filter_trim.fna] (assuming and/&& condition, and trim all instances of exact match).
+>     [2.filter_trim.fna] (assuming and/&& condition, and trim all instances of exact match).
 >     3. Tab de-limited text file containing the read identifiers along with the starting and end positions of the primer or adaptor sequences:
->        [3.primer_adaptor_loc.txt].
->     
->     Process finished with exit code 0
+>     [3.primer_adaptor_loc.txt].
+
