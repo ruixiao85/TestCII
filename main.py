@@ -119,7 +119,7 @@ if __name__=='__main__':
    print(f'6. Number of reads with both primer and adapter sequences: {c6:,}.')
    print()
    print('In addition, your program needs to generate the following files:')
-   print(f'1. Total number of reads blasted and written into the m8 format file":\n'
+   print(f'1. Total number of reads blasted and written into the m8 format file:\n'
          f'   [{blast_result_file}] assuming running blast with sequences after trimming primer/adaptor'
          f'   completed {cb} / {c1} ({cb/c1:.1%}) via NCBI qblast.')
    print(f'2. Fasta file containing reads greater than {qc2} {unit}, average read quality scores greater than {qc3}, primers and adaptors trimmed.\n'
